@@ -1,12 +1,13 @@
-import { TEST } from "./types";
+import { SET_ACTIVE_LINK } from "./types";
 
 export default (state, action) => {
   const { type, payload } = action;
 
   switch (type) {
-    case TEST:
+    case SET_ACTIVE_LINK:
       return {
-        test: !state.test,
+        ...state,
+        activeLink: payload,
       };
     default:
       return state;

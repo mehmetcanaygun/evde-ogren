@@ -1,26 +1,28 @@
 import React, { useReducer } from "react";
 import Reducer from "./reducer";
 import Context from "./context";
-import { TEST } from "./types";
+import { SET_ACTIVE_LINK } from "./types";
 
 const State = (props) => {
   const initialState = {
-    test: true,
+    activeLink: document.location.pathname,
   };
 
   const [state, dispatch] = useReducer(Reducer, initialState);
 
-  const changeTest = () => {
+  // Set Active Link
+  const setActiveLink = (path) => {
     dispatch({
-      type: TEST,
+      type: SET_ACTIVE_LINK,
+      payload: path,
     });
   };
 
   return (
     <Context.Provider
       value={{
-        test: state.test,
-        changeTest,
+        activeLink: state.activeLink,
+        setActiveLink,
       }}
     >
       {props.children}
