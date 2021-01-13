@@ -1,6 +1,6 @@
-import { SET_ACTIVE_LINK } from "./types";
+import { SET_ACTIVE_LINK, SET_LOADING, GET_GAMES } from "./types";
 
-export default (state, action) => {
+const reducer = (state, action) => {
   const { type, payload } = action;
 
   switch (type) {
@@ -9,7 +9,20 @@ export default (state, action) => {
         ...state,
         activeLink: payload,
       };
+    case SET_LOADING:
+      return {
+        ...state,
+        loading: true,
+      };
+    case GET_GAMES:
+      return {
+        ...state,
+        games: payload,
+        loading: false,
+      };
     default:
       return state;
   }
 };
+
+export default reducer;

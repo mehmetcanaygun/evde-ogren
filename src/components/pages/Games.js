@@ -1,8 +1,19 @@
-import React from "react";
+import React, { useContext, useEffect } from "react";
 import { Link } from "react-router-dom";
+import Context from "../../context/context";
 import Header from "../layout/Header";
+import Loading from "../layout/Loading";
 
 const Games = () => {
+  const context = useContext(Context);
+  const { loading, getGames, games } = context;
+
+  useEffect(() => {
+    getGames();
+
+    // eslint-disable-next-line
+  }, []);
+
   return (
     <div className="page games-page">
       <Header
@@ -21,48 +32,23 @@ const Games = () => {
         assumenda quasi unde labore minima laborum ipsam voluptatem totam?
       </p>
 
-      <div className="grid">
-        <Link
-          to="/oyunlar/TetrisFun"
-          style={{
-            backgroundImage: `url(${
-              require("../../assets/img/TetrisFun.jpg").default
-            })`,
-          }}
-        >
-          <p>TetrisFun</p>
-        </Link>
-        <Link
-          to="/oyunlar/BreakTris"
-          style={{
-            backgroundImage: `url(${
-              require("../../assets/img/BreakTris.jpg").default
-            })`,
-          }}
-        >
-          <p>BreakTris</p>
-        </Link>
-        <Link
-          to="/oyunlar/Minesweeper"
-          style={{
-            backgroundImage: `url(${
-              require("../../assets/img/Minesweeper.jpg").default
-            })`,
-          }}
-        >
-          <p>Minesweeper</p>
-        </Link>
-        <Link
-          to="/oyunlar/BubbleTrouble"
-          style={{
-            backgroundImage: `url(${
-              require("../../assets/img/BubbleTrouble.jpg").default
-            })`,
-          }}
-        >
-          <p>BubbleTrouble</p>
-        </Link>
-      </div>
+      {loading ? (
+        <Loading />
+      ) : (
+        <div className="grid">
+          {games.map((game) => (
+            <Link
+              key={game.id}
+              to={`/oyunlar/${game.name}`}
+              style={{
+                backgroundImage: `url(${`/assets/img/${game.name}.jpg`})`,
+              }}
+            >
+              <p>{game.name}</p>
+            </Link>
+          ))}
+        </div>
+      )}
     </div>
   );
 };

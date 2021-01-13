@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "name": "TetrisFun"
+  },
+  {
+    "id": "2",
+    "name": "BreakTris"
+  },
+  {
+    "id": "3",
+    "name": "Minesweeper"
+  },
+  {
+    "id": "4",
+    "name": "BubbleTrouble"
+  },
+  {
+    "id": "5",
+    "name": "FruitCollector"
+  },
+  {
+    "id": "6",
+    "name": "OuterSpaceArkanoid"
+  },
+  {
+    "id": "7",
+    "name": "MsTapman"
+  },
+  {
+    "id": "8",
+    "name": "CookieMonster"
+  },
+  {
+    "id": "9",
+    "name": "RobotCrossRoad"
+  },
+  {
+    "id": "10",
+    "name": "SnowMan"
+  }
+]
