@@ -8,7 +8,7 @@
   z-index: 10;
   width: 100%;
   height: $navbar-height-lg;
-  padding: 0 $px-sm;
+  padding: 0 $px-lg;
 }
 
 .navbar-logo {
@@ -62,8 +62,8 @@
 
 .navbar-btn {
   position: relative;
-  width: 40px;
-  height: 30px;
+  width: 36px;
+  height: 23px;
   border: 0;
   background: none;
   cursor: pointer;
@@ -72,7 +72,7 @@
     position: absolute;
     left: 0;
     width: 100%;
-    height: 4px;
+    height: 3px;
     background-color: $color-secondary;
     border-radius: 4px;
     transition: 0.3s;
@@ -83,33 +83,27 @@
   }
 
   .middle {
-    top: 13px;
-    transition-delay: 0.2s;
+    top: 10px;
   }
 
   .bottom {
-    top: 26px;
+    top: 20px;
   }
 }
 
 .navbar-btn.toggled {
   .top {
-    top: 13px;
+    top: 10px;
     transform: rotate(225deg);
   }
 
   .middle {
-    top: -9px;
-    left: -4px;
-    width: 48px;
-    height: 48px;
-    background-color: transparent;
-    border: 2px solid $color-secondary;
-    border-radius: 50%;
+    transform: translateX(-12px);
+    opacity: 0;
   }
 
   .bottom {
-    top: 13px;
+    top: 10px;
     transform: rotate(-225deg);
   }
 }
@@ -128,10 +122,11 @@
 @media (max-width: 768px) {
   .navbar {
     height: $navbar-height-sm;
+    padding: 0 $px-sm;
   }
 
   .navbar-logo {
-    font-size: 18px;
+    font-size: 24px;
   }
 
   .navbar-nav {

@@ -38,3 +38,26 @@ select,
 a {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+
+// Custom scrollbar
+
+// Width
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+// Track
+::-webkit-scrollbar-track {
+  background: $color-light;
+}
+
+// Handle
+::-webkit-scrollbar-thumb {
+  background: $color-secondary;
+  border-radius: 6px;
+}
+
+// Handle on hover
+::-webkit-scrollbar-thumb:hover {
+  background: darken($color-secondary, 10);
+}

@@ -1,0 +1,15 @@
+.page {
+  min-height: 100vh;
+  padding-top: $navbar-height-lg;
+  padding-left: $px-lg;
+  padding-right: $px-lg;
+}
+
+// Media Queries
+@media (max-width: 768px) {
+  .page {
+    padding-top: $navbar-height-sm;
+    padding-left: $px-sm;
+    padding-right: $px-sm;
+  }
+}

@@ -41,6 +41,38 @@ a {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #eeeeee;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d82158;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ac1a46;
+}
+
+.page {
+  min-height: 100vh;
+  padding-top: 100px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+@media (max-width: 768px) {
+  .page {
+    padding-top: 60px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
 .navbar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -113,7 +145,7 @@ a {
 }
 
 .navbar-nav ul li a {
-  color: #eaeaea;
+  color: #eeeeee;
 }
 
 .navbar-nav ul li.active::before,
@@ -127,8 +159,8 @@ a {
 
 .navbar-btn {
   position: relative;
-  width: 40px;
-  height: 30px;
+  width: 36px;
+  height: 23px;
   border: 0;
   background: none;
   cursor: pointer;
@@ -138,7 +170,7 @@ a {
   position: absolute;
   left: 0;
   width: 100%;
-  height: 4px;
+  height: 3px;
   background-color: #d82158;
   border-radius: 4px;
   -webkit-transition: 0.3s;
@@ -150,33 +182,27 @@ a {
 }
 
 .navbar-btn .middle {
-  top: 13px;
-  -webkit-transition-delay: 0.2s;
-          transition-delay: 0.2s;
+  top: 10px;
 }
 
 .navbar-btn .bottom {
-  top: 26px;
+  top: 20px;
 }
 
 .navbar-btn.toggled .top {
-  top: 13px;
+  top: 10px;
   -webkit-transform: rotate(225deg);
           transform: rotate(225deg);
 }
 
 .navbar-btn.toggled .middle {
-  top: -9px;
-  left: -4px;
-  width: 48px;
-  height: 48px;
-  background-color: transparent;
-  border: 2px solid #d82158;
-  border-radius: 50%;
+  -webkit-transform: translateX(-12px);
+          transform: translateX(-12px);
+  opacity: 0;
 }
 
 .navbar-btn.toggled .bottom {
-  top: 13px;
+  top: 10px;
   -webkit-transform: rotate(-225deg);
           transform: rotate(-225deg);
 }
@@ -194,9 +220,10 @@ a {
 @media (max-width: 768px) {
   .navbar {
     height: 60px;
+    padding: 0 5%;
   }
   .navbar-logo {
-    font-size: 18px;
+    font-size: 24px;
   }
   .navbar-nav {
     height: calc(100vh - 60px);
@@ -204,5 +231,358 @@ a {
   .navbar-nav.toggled {
     top: 60px;
   }
+}
+
+.footer {
+  background-color: #202020;
+  color: #eeeeee;
+  height: 160px;
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header {
+  padding: 20px;
+  margin-bottom: 60px;
+}
+
+.header h1 {
+  font-size: 36px;
+  font-weight: 400;
+  color: #202020;
+  font-family: "Spicy Rice", cursive;
+  letter-spacing: 2px;
+}
+
+.header ul {
+  height: 36px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header ul li {
+  height: 100%;
+  font-size: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header ul li a {
+  color: #202020;
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
+}
+
+.header ul li i {
+  color: #202020;
+  margin: 0 6px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    border-left: 3px solid #1ab9e0;
+    padding-left: 8px;
+    margin-bottom: 30px;
+  }
+  .header h1 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  .header ul {
+    height: 28px;
+  }
+  .header ul li {
+    font-size: 12px;
+  }
+}
+
+.home-page .site-links {
+  margin: 40px 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.home-page .site-links li {
+  width: 100%;
+  height: 50px;
+  border-radius: 50px;
+  -webkit-box-shadow: 0px 2px #202020;
+  box-shadow: 0px 2px #202020;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.home-page .site-links li a {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 4px;
+  color: #202020;
+}
+
+.home-page .site-links li:hover {
+  -webkit-transform: translateY(-8px);
+          transform: translateY(-8px);
+  -webkit-box-shadow: 0px 10px #202020;
+  box-shadow: 0px 10px #202020;
+}
+
+.home-page .showcase {
+  margin: 40px 0;
+  padding: 100px 40px;
+  border-radius: 18px;
+  background-image: url("../assets/img/home-showcase-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.home-page .showcase h1 {
+  color: #1ab9e0;
+  font-size: 48px;
+  margin-bottom: 40px;
+  width: 400px;
+  line-height: 1.5;
+}
+
+.home-page .showcase h1 span {
+  color: #d82158;
+}
+
+.home-page .showcase p {
+  font-size: 24px;
+  line-height: 1.5;
+  width: 500px;
+}
+
+.home-page .showcase .mouse {
+  position: absolute;
+  bottom: -20px;
+  left: calc(50% - 30px);
+  width: 60px;
+  height: 80px;
+  border-radius: 50px;
+  background-color: #1ab9e0;
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.75);
+  -webkit-animation: mouseScroll 0.6s ease-in-out infinite;
+          animation: mouseScroll 0.6s ease-in-out infinite;
+}
+
+.home-page .showcase .mouse::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: calc(50% - 2px);
+  width: 4px;
+  height: 20px;
+  background-color: #fff;
+}
+
+.home-page .grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin: 100px 0 40px 0;
+}
+
+.home-page .grid div {
+  background-color: #eeeeee;
+  padding: 20px;
+  border-radius: 12px;
+  position: relative;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.home-page .grid div span {
+  position: absolute;
+  top: -16px;
+  right: 0;
+  font-size: 32px;
+}
+
+.home-page .grid div h2 {
+  margin-bottom: 30px;
+  font-family: "Spicy Rice", cursive;
+  color: #1ab9e0;
+  letter-spacing: 2px;
+  position: relative;
+}
+
+.home-page .grid div h2::after {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  width: 100px;
+  height: 6px;
+  background-color: #1ab9e0;
+  border-radius: 4px;
+}
+
+.home-page .grid .riddle span {
+  color: #fa8b68;
+}
+
+.home-page .grid .trivia span {
+  color: #d82158;
+}
+
+.home-page .grid .experiment span {
+  color: #3b42f9;
+}
+
+.home-page .grid .origami span {
+  color: #f4f0a6;
+}
+
+.home-page .grid div:hover {
+  -webkit-transform: scale(1.05) rotate(3deg);
+          transform: scale(1.05) rotate(3deg);
+}
+
+@-webkit-keyframes mouseScroll {
+  0%,
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+}
+
+@keyframes mouseScroll {
+  0%,
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+}
+
+@media (max-width: 768px) {
+  .home-page .site-links {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    gap: 14px;
+  }
+  .home-page .showcase {
+    padding: 40px 20px 60px 20px;
+  }
+  .home-page .showcase h1 {
+    width: 100%;
+    font-size: 32px;
+  }
+  .home-page .showcase p {
+    width: 100%;
+    font-size: 18px;
+  }
+  .home-page .grid {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+
+.games-page .page-info {
+  margin-bottom: 60px;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.games-page .grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+.games-page .grid a {
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.games-page .grid a p {
+  width: 100%;
+  text-align: center;
+  padding: 12px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #eeeeee;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.games-page .grid a:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.games-page .grid a:hover p {
+  background-color: #d82158;
+}
+
+.single-game-page .game {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #000;
 }
 /*# sourceMappingURL=App.css.map */
