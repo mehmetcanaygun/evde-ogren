@@ -668,4 +668,99 @@ a {
           align-items: center;
   background-color: #000;
 }
+
+.drawing-page .drawing-container {
+  height: 600px;
+  position: relative;
+}
+
+.drawing-page .drawing-container .toolbox {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100px;
+  height: 100%;
+  background-color: #eeeeee;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-transition: top 0.3s ease-in-out;
+  transition: top 0.3s ease-in-out;
+  border-top-right-radius: 18px;
+  border-bottom-right-radius: 18px;
+}
+
+.drawing-page .drawing-container .toolbox div {
+  width: 100%;
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 8px;
+}
+
+.drawing-page .drawing-container .toolbox div:last-child {
+  border-bottom: none;
+}
+
+.drawing-page .drawing-container .toolbox div p {
+  margin-bottom: 0.5rem;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.drawing-page .drawing-container .toolbox .toolbox-btn {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  margin: 0.2rem;
+  border: 2px solid transparent;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+.drawing-page .drawing-container .toolbox .toolbox-btn:hover {
+  background-color: #eeeeee;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.drawing-page .drawing-container .toolbox .toolbox-btn.selected {
+  border: 2px solid #1ab9e0;
+}
+
+.drawing-page .drawing-container .toolbox .clear-btn {
+  cursor: pointer;
+  width: 90%;
+  font-size: 14px;
+  background-color: #979797;
+  color: #eeeeee;
+  border: none;
+  padding: 6px 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.drawing-page .drawing-container .toolbox .clear-btn:hover {
+  background-color: #717171;
+}
+
+.drawing-page .drawing-container #canvas {
+  display: block;
+  border-radius: 18px;
+  -webkit-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.75);
+}
+
+.drawing-page .drawing-container #canvas:hover {
+  cursor: crosshair;
+}
 /*# sourceMappingURL=App.css.map */
