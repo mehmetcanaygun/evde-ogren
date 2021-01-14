@@ -1,13 +1,14 @@
 import React, { useReducer } from "react";
 import Reducer from "./reducer";
 import Context from "./context";
-import { SET_ACTIVE_LINK, SET_LOADING, GET_GAMES } from "./types";
+import { SET_ACTIVE_LINK, SET_LOADING, GET_GAMES, GET_ORIGAMIS } from "./types";
 
 const State = (props) => {
   const initialState = {
     activeLink: document.location.pathname,
     loading: false,
     games: [],
+    origamis: [],
   };
 
   const [state, dispatch] = useReducer(Reducer, initialState);
@@ -33,6 +34,19 @@ const State = (props) => {
     });
   };
 
+  // Get Origamis
+  const getOrigamis = async () => {
+    setLoading();
+
+    const res = await fetch("/assets/origamis.json");
+    const data = await res.json();
+
+    dispatch({
+      type: GET_ORIGAMIS,
+      payload: data,
+    });
+  };
+
   // Set Loading
   const setLoading = () => {
     dispatch({
@@ -46,8 +60,10 @@ const State = (props) => {
         activeLink: state.activeLink,
         loading: state.loading,
         games: state.games,
+        origamis: state.origamis,
         setActiveLink,
         getGames,
+        getOrigamis,
       }}
     >
       {props.children}

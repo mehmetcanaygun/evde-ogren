@@ -7,6 +7,7 @@ import Home from "./components/pages/Home";
 import Games from "./components/pages/Games";
 import SingleGame from "./components/pages/SingleGame";
 import Drawing from "./components/pages/Drawing";
+import Origamis from "./components/pages/Origamis";
 import NotFound from "./components/pages/NotFound";
 
 import "./css/App.css";
@@ -22,6 +23,7 @@ function App() {
             <Route exact path="/oyunlar" component={Games} />
             <Route exact path="/oyunlar/:name" component={SingleGame} />
             <Route exact path="/cizim" component={Drawing} />
+            <Route exact path="/origami" component={Origamis} />
             <Route component={NotFound} />
           </Switch>
           <Footer />

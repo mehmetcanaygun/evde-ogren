@@ -1,12 +1,8 @@
-import React, { createRef, useState, useEffect, Children } from "react";
+import React, { createRef, useEffect } from "react";
 import Header from "../layout/Header";
 
 const Drawing = () => {
-  // const [mousePressed, setMousePressed] = useState(false);
-  // const [brushType, setBrushType] = useState("round");
-  // const [brushSize, setBrushSize] = useState("4");
-  // const [brushColor, setBrushColor] = useState("#000");
-  const [canvasRef, setCanvasRef] = useState(createRef());
+  const canvasRef = createRef();
 
   let mousePressed = false;
   let brushType = "round";
@@ -109,7 +105,7 @@ const Drawing = () => {
     };
 
     // eslint-disable-next-line
-  }, [mousePressed, brushType, brushSize, brushColor]);
+  }, []);
 
   return (
     <div className="page drawing-page">

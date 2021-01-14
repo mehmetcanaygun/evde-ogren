@@ -2,12 +2,12 @@
 
 ## Sayfalar
 
-- Oyunlar
+- Oyunlar - YAPILDI
 - Tarihte bugün
-- Çizim tahtası - örnek çizimler - resmi kaydedebilme
+- Çizim tahtası - YAPILDI
 - Bilimsel Deneyler. Görsel ve açıklama
 - Fotoğraf galerisi. Alt kategoriler
-- Origami
+- Origami - YAPILDI
 - Quiz
 - İngilizce eğitimi. Her gün bir yeni kelime. Eşleştirme gibi aktiviteler
 

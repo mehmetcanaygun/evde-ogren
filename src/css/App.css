@@ -65,11 +65,100 @@ a {
   padding-right: 10%;
 }
 
+.page-info {
+  margin-bottom: 60px;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+.grid a,
+.grid button {
+  width: 100%;
+  height: 200px;
+  border: none;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.grid a p,
+.grid button p {
+  width: 100%;
+  height: 36px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #eeeeee;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.grid a:hover,
+.grid button:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.grid a:hover p,
+.grid button:hover p {
+  background-color: #d82158;
+}
+
+@media (max-width: 1024px) {
+  .grid {
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+  }
+}
+
 @media (max-width: 768px) {
   .page {
     padding-top: 60px;
     padding-left: 5%;
     padding-right: 5%;
+  }
+  .page-info {
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 1.3;
+  }
+  .grid {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 425px) {
+  .grid {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
   }
 }
 
@@ -296,7 +385,6 @@ a {
 
 @media (max-width: 768px) {
   .header {
-    border-left: 3px solid #1ab9e0;
     padding-left: 8px;
     margin-bottom: 30px;
   }
@@ -570,92 +658,6 @@ a {
   }
 }
 
-.games-page .page-info {
-  margin-bottom: 60px;
-  font-size: 18px;
-  line-height: 1.4;
-}
-
-.games-page .grid {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[4];
-      grid-template-columns: repeat(4, 1fr);
-  gap: 40px;
-}
-
-.games-page .grid a {
-  width: 100%;
-  height: 200px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
-
-.games-page .grid a p {
-  width: 100%;
-  height: 36px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: rgba(0, 0, 0, 0.8);
-  color: #eeeeee;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
-
-.games-page .grid a:hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-}
-
-.games-page .grid a:hover p {
-  background-color: #d82158;
-}
-
-@media (max-width: 1024px) {
-  .games-page .grid {
-    -ms-grid-columns: 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr;
-    gap: 30px;
-  }
-}
-
-@media (max-width: 768px) {
-  .games-page .page-info {
-    margin-bottom: 40px;
-    font-size: 16px;
-    line-height: 1.3;
-  }
-  .games-page .grid {
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-    gap: 20px;
-  }
-}
-
-@media (max-width: 425px) {
-  .games-page .grid {
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-  }
-}
-
 .single-game-page .game {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -762,5 +764,69 @@ a {
 
 .drawing-page .drawing-container #canvas:hover {
   cursor: crosshair;
+}
+
+.origamis-page .origamis-grid button {
+  border-radius: 18px;
+  border: 2px solid #f4f0a6;
+  -webkit-box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.48);
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.48);
+}
+
+.origamis-page .origamis-grid button p {
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+}
+
+.origamis-page .origami-steps button {
+  width: 200px;
+  height: 40px;
+  border: 0;
+  background-color: #eeeeee;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+.origamis-page .origami-steps button:hover {
+  background-color: #979797;
+}
+
+.origamis-page .origami-steps ul {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+.origamis-page .origami-steps ul li {
+  width: 100%;
+}
+
+.origamis-page .origami-steps ul li img {
+  max-width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .origamis-page .origami-steps ul {
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .origamis-page .origami-steps ul {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 425px) {
+  .origamis-page .origami-steps ul {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
 }
 /*# sourceMappingURL=App.css.map */
