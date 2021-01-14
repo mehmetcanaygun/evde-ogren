@@ -1,0 +1,209 @@
+[
+  {
+    "category": "Yemek",
+    "imgPath": "/assets/img/quiz-food.jpg",
+    "questions": [
+      {
+        "qId": 1,
+        "question": "Hangisi bir sebzedir?",
+        "answers": [
+          {
+            "aId": 1,
+            "answer": "Salatalık",
+            "correct": true
+          },
+          {
+            "aId": 2,
+            "answer": "Avokado",
+            "correct": false
+          },
+          {
+            "aId": 3,
+            "answer": "Mango",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "qId": 2,
+        "question": "Hangisi protein ağırlıklı bir yiyecektir?",
+        "answers": [
+          {
+            "aId": 1,
+            "answer": "Mercimek çorbası",
+            "correct": false
+          },
+          {
+            "aId": 2,
+            "answer": "Izgara tavuk",
+            "correct": true
+          },
+          {
+            "aId": 3,
+            "answer": "Baklava",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "qId": 3,
+        "question": "Hangisi Kalsiyum bakımından zengindir?",
+        "answers": [
+          {
+            "aId": 1,
+            "answer": "Vişne suyu",
+            "correct": false
+          },
+          {
+            "aId": 2,
+            "answer": "Çay",
+            "correct": false
+          },
+          {
+            "aId": 3,
+            "answer": "Süt",
+            "correct": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Taşıtlar",
+    "imgPath": "/assets/img/quiz-vehicles.jpg",
+    "questions": [
+      {
+        "qId": 1,
+        "question": "Hangisi toplu taşıma aracı değildir?",
+        "answers": [
+          {
+            "aId": 1,
+            "answer": "Ambulans",
+            "correct": true
+          },
+          {
+            "aId": 2,
+            "answer": "Otobüs",
+            "correct": false
+          },
+          {
+            "aId": 3,
+            "answer": "Tren",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "qId": 2,
+        "question": "Yerin altında, raylar üzerinde giden toplu taşıma aracına ne ad verilir?",
+        "answers": [
+          {
+            "aId": 1,
+            "answer": "Metrobüs",
+            "correct": false
+          },
+          {
+            "aId": 2,
+            "answer": "Metro",
+            "correct": true
+          },
+          {
+            "aId": 3,
+            "answer": "Şilep",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "qId": 3,
+        "question": "Hangisi bir denit taşıtıdır?",
+        "answers": [
+          {
+            "aId": 1,
+            "answer": "Füniküler",
+            "correct": false
+          },
+          {
+            "aId": 2,
+            "answer": "Planör",
+            "correct": false
+          },
+          {
+            "aId": 3,
+            "answer": "Şilep",
+            "correct": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Hayvanlar",
+    "imgPath": "/assets/img/quiz-animals.jpg",
+    "questions": [
+      {
+        "qId": 1,
+        "question": "Uçan tek memeli hayvan aşağıdakilerden hangisidir?",
+        "answers": [
+          {
+            "aId": 1,
+            "answer": "Yarasa",
+            "correct": true
+          },
+          {
+            "aId": 2,
+            "answer": "Pelikan",
+            "correct": false
+          },
+          {
+            "aId": 3,
+            "answer": "Kunduz",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "qId": 2,
+        "question": "Golden Retriever, bir ........ ırkıdır?",
+        "answers": [
+          {
+            "aId": 1,
+            "answer": "Kuş",
+            "correct": false
+          },
+          {
+            "aId": 2,
+            "answer": "Köpek",
+            "correct": true
+          },
+          {
+            "aId": 3,
+            "answer": "Kedi",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "qId": 3,
+        "question": "En büyük memeli hayvan hangisidir?",
+        "answers": [
+          {
+            "aId": 1,
+            "answer": "Fil",
+            "correct": false
+          },
+          {
+            "aId": 2,
+            "answer": "Köpekbalığı",
+            "correct": false
+          },
+          {
+            "aId": 3,
+            "answer": "Mavi balina",
+            "correct": true
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -14,3 +14,4 @@
 ## Düzeltmeler
 
 - Linke tıklandığında sayfanın en üstüne gidecek
+- origamilerin onClick'ine sayfanın en üstüne dönme şeysi ekle

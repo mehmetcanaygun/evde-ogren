@@ -49,7 +49,7 @@ const Origamis = () => {
       ) : selectedOrigami ? (
         <div className="origami-steps" style={{ top: window.scrollY }}>
           <button
-            className="close-btn"
+            className="back-btn"
             onClick={() => {
               setSelectedOrigami(null);
             }}

@@ -1,7 +1,13 @@
 import React, { useReducer } from "react";
 import Reducer from "./reducer";
 import Context from "./context";
-import { SET_ACTIVE_LINK, SET_LOADING, GET_GAMES, GET_ORIGAMIS } from "./types";
+import {
+  SET_ACTIVE_LINK,
+  SET_LOADING,
+  GET_GAMES,
+  GET_ORIGAMIS,
+  GET_QUIZES,
+} from "./types";
 
 const State = (props) => {
   const initialState = {
@@ -9,6 +15,7 @@ const State = (props) => {
     loading: false,
     games: [],
     origamis: [],
+    quizes: [],
   };
 
   const [state, dispatch] = useReducer(Reducer, initialState);
@@ -47,6 +54,19 @@ const State = (props) => {
     });
   };
 
+  // Get Quizes
+  const getQuizes = async () => {
+    setLoading();
+
+    const res = await fetch("/assets/quizes.json");
+    const data = await res.json();
+
+    dispatch({
+      type: GET_QUIZES,
+      payload: data,
+    });
+  };
+
   // Set Loading
   const setLoading = () => {
     dispatch({
@@ -61,9 +81,11 @@ const State = (props) => {
         loading: state.loading,
         games: state.games,
         origamis: state.origamis,
+        quizes: state.quizes,
         setActiveLink,
         getGames,
         getOrigamis,
+        getQuizes,
       }}
     >
       {props.children}

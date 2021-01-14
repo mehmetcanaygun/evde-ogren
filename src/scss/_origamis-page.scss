@@ -15,19 +15,6 @@
   }
 
   .origami-steps {
-    button {
-      width: 200px;
-      height: 40px;
-      border: 0;
-      background-color: $color-light;
-      margin-bottom: 40px;
-      cursor: pointer;
-    }
-
-    button:hover {
-      background-color: $color-gray;
-    }
-
     ul {
       display: grid;
       grid-template-columns: repeat(4, 1fr);

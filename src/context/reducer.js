@@ -1,4 +1,10 @@
-import { SET_ACTIVE_LINK, SET_LOADING, GET_GAMES, GET_ORIGAMIS } from "./types";
+import {
+  SET_ACTIVE_LINK,
+  SET_LOADING,
+  GET_GAMES,
+  GET_ORIGAMIS,
+  GET_QUIZES,
+} from "./types";
 
 const reducer = (state, action) => {
   const { type, payload } = action;
@@ -24,6 +30,12 @@ const reducer = (state, action) => {
       return {
         ...state,
         origamis: payload,
+        loading: false,
+      };
+    case GET_QUIZES:
+      return {
+        ...state,
+        quizes: payload,
         loading: false,
       };
     default:

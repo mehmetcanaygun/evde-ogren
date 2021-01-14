@@ -52,6 +52,19 @@
   }
 }
 
+.back-btn {
+  width: 200px;
+  height: 40px;
+  border: 0;
+  background-color: $color-light;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+.back-btn:hover {
+  background-color: $color-gray;
+}
+
 // Media Queries
 @media (max-width: 1024px) {
   .grid {
