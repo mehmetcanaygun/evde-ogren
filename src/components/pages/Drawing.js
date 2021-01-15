@@ -122,7 +122,7 @@ const Drawing = () => {
 
       <div className="drawing-container">
         <div className="toolbox">
-          <div>
+          <div className="brush-type-container">
             <p>Fırça Tipi</p>
             {types.map((type, index) => (
               <button
@@ -143,8 +143,8 @@ const Drawing = () => {
               ></button>
             ))}
           </div>
-          <div>
-            <p>Fırça Ebadı</p>
+          <div className="brush-size-container">
+            <p>Fırça Boyu</p>
             {sizes.map((size, index) => (
               <button
                 key={index}
@@ -162,7 +162,7 @@ const Drawing = () => {
               </button>
             ))}
           </div>
-          <div>
+          <div className="brush-color-container">
             <p>Palet</p>
             {colors.map((color, index) => (
               <button
@@ -179,6 +179,13 @@ const Drawing = () => {
                 }}
               ></button>
             ))}
+          </div>
+          <div className="brush-custom-color-container">
+            <p>Özel Renk</p>
+            <input
+              type="color"
+              onChange={(e) => (brushColor = e.target.value)}
+            />
           </div>
           <div>
             <button className="clear-btn" onClick={() => clearCanvas()}>

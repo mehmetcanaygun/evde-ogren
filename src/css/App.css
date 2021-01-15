@@ -696,6 +696,7 @@ a {
   right: 0;
   width: 100px;
   height: 100%;
+  padding: 10px 4px;
   background-color: #eeeeee;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -707,9 +708,9 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   text-align: center;
   -webkit-transition: top 0.3s ease-in-out;
   transition: top 0.3s ease-in-out;
@@ -719,8 +720,8 @@ a {
 
 .drawing-page .drawing-container .toolbox div {
   width: 100%;
-  border-bottom: 1px solid #eeeeee;
-  padding-bottom: 8px;
+  border-bottom: 1px solid #d5d5d5;
+  padding: 8px 0;
 }
 
 .drawing-page .drawing-container .toolbox div:last-child {
@@ -728,17 +729,18 @@ a {
 }
 
 .drawing-page .drawing-container .toolbox div p {
-  margin-bottom: 0.5rem;
-  font-size: 14px;
+  margin-bottom: 4px;
+  font-size: 12px;
   font-weight: bold;
 }
 
 .drawing-page .drawing-container .toolbox .toolbox-btn {
   cursor: pointer;
-  width: 24px;
-  height: 24px;
-  margin: 0.2rem;
+  width: 18px;
+  height: 18px;
+  margin: 2px;
   border: 2px solid transparent;
+  border-radius: 50%;
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
 }
@@ -757,9 +759,10 @@ a {
   cursor: pointer;
   width: 90%;
   font-size: 14px;
-  background-color: #979797;
+  background-color: indianred;
   color: #eeeeee;
   border: none;
+  border-radius: 18px;
   padding: 6px 0;
   -webkit-transition: 0.3s;
   transition: 0.3s;
