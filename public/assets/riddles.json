@@ -1,0 +1,482 @@
+[
+  {
+    "id": 0,
+    "riddle": "İz eder dizi dizi, alır götürür bizi",
+    "answer": "Ayak"
+  },
+  {
+    "id": 1,
+    "riddle": "Kolu var bacağı yok, dikdörtgeni var karesi yok",
+    "answer": "Kapı"
+  },
+  {
+    "id": 2,
+    "riddle": "Küçük kare kutu, içi insan dolu",
+    "answer": "Televizyon"
+  },
+  {
+    "id": 3,
+    "riddle": "İki yuvarlak biri büyük biri küçük onlar olmasa bize dünya kapkara.",
+    "answer": "Göz ve Göz bebeği"
+  },
+  {
+    "id": 4,
+    "riddle": "Kıvrım kıvrım kıvrılır çizgisi, ayırır kara ile denizi.",
+    "answer": "Harita"
+  },
+  {
+    "id": 5,
+    "riddle": "Dışı var, içi yok; Tekme yer, suçu yok.",
+    "answer": "Top"
+  },
+  {
+    "id": 6,
+    "riddle": "Bir kapaklı çok yapraklı, içinde bilgi saklı",
+    "answer": "Kitap"
+  },
+  {
+    "id": 7,
+    "riddle": "Yer altında sakallı kök",
+    "answer": "Pırasa"
+  },
+  {
+    "id": 8,
+    "riddle": "Hiç ağırlığı olmayan fakat gemiyi batıran şey nedir?",
+    "answer": "Delik"
+  },
+  {
+    "id": 9,
+    "riddle": "Dört ayağı var yürüyemez",
+    "answer": "Masa"
+  },
+  {
+    "id": 10,
+    "riddle": "Kuyruğu var, at değil. Kanadı var, kuş değil.",
+    "answer": "Balık"
+  },
+  {
+    "id": 11,
+    "riddle": "En çok kardeşi olan meyve hangi meyvedir?",
+    "answer": "Üzüm"
+  },
+  {
+    "id": 12,
+    "riddle": "Sudan topraktan çıkarım, hemen her yemekte varım",
+    "answer": "Tuz"
+  },
+  {
+    "id": 13,
+    "riddle": "Ne kadar çoksa, o kadar az görürsün?",
+    "answer": "Karanlık"
+  },
+  {
+    "id": 14,
+    "riddle": "Bir küçücük arpacık, başında var tablacık.",
+    "answer": "Çivi"
+  },
+  {
+    "id": 15,
+    "riddle": "Uzun uzun uzarlar, boynuzunda buzağılar.",
+    "answer": "Mısır"
+  },
+  {
+    "id": 16,
+    "riddle": "Bir sapı var, yüz topu var.",
+    "answer": "Üzüm"
+  },
+  {
+    "id": 17,
+    "riddle": "Akşam baktım çok idi, Sabah baktım yok idi.",
+    "answer": "Yıldız"
+  },
+  {
+    "id": 18,
+    "riddle": "Yaşı yok başı yok adam olmuş söz keser.",
+    "answer": "Nokta"
+  },
+  {
+    "id": 19,
+    "riddle": "Beyaz sarayda sarı padişah",
+    "answer": "Yumurta"
+  },
+  {
+    "id": 20,
+    "riddle": "Benim bir hayvanım var kuyruğundan uzun burnu var.",
+    "answer": "Fil"
+  },
+  {
+    "id": 21,
+    "riddle": "Bir ağacı oymuşlar içine dünyayı koymuşlar",
+    "answer": "Televizyon"
+  },
+  {
+    "id": 22,
+    "riddle": "Bilgi verir herkese, En güzel dosttur bize.",
+    "answer": "Kitap"
+  },
+  {
+    "id": 23,
+    "riddle": "Gökte durur paslanmaz, suya düşer ıslanmaz.",
+    "answer": "Güneş"
+  },
+  {
+    "id": 24,
+    "riddle": "Uzun uzun yollardan, bir acayip kuş gelir, Ne güzel dili var, ne söylese hoş gelir",
+    "answer": "Mektup"
+  },
+  {
+    "id": 25,
+    "riddle": "Kolu var, eli yok, karnı yarık karnı yok",
+    "answer": "Ceket"
+  },
+  {
+    "id": 26,
+    "riddle": "Pazardan aldım bir tane, Eve geldim bin tane",
+    "answer": "Nar"
+  },
+  {
+    "id": 27,
+    "riddle": "Sarıdır sallanır, dalında ballanır.",
+    "answer": "Portakal"
+  },
+  {
+    "id": 28,
+    "riddle": "Karşıdan baktım bir kırmızı kilim, yanına vardım dilim dilim.",
+    "answer": "Kiremit"
+  },
+  {
+    "id": 29,
+    "riddle": "Yavaş gitse izi yok, hızlı gitse tozu yok.",
+    "answer": "Gölge"
+  },
+  {
+    "id": 30,
+    "riddle": "Uzun oluk, tepesi delik.",
+    "answer": "Baca"
+  },
+  {
+    "id": 31,
+    "riddle": "Sıcağa koyma kurur.",
+    "answer": "Sabun"
+  },
+  {
+    "id": 32,
+    "riddle": "Su yutmuş toprağa ne denir?",
+    "answer": "Çamur"
+  },
+  {
+    "id": 33,
+    "riddle": "Şehirden şehire koşarım, köyden köye giderim fakat hiç hareket etmem.",
+    "answer": "Yol"
+  },
+  {
+    "id": 34,
+    "riddle": "Yazın giyinir, kışın soyunur.",
+    "answer": "Ağaç"
+  },
+  {
+    "id": 35,
+    "riddle": "Yerin altında kırmızı minare",
+    "answer": "Havuç"
+  },
+  {
+    "id": 36,
+    "riddle": "Yeşil mantolu, kırmızı entarili, siyah düğmeli.",
+    "answer": "Karpuz"
+  },
+  {
+    "id": 37,
+    "riddle": "Yol üstünde durur, gelene geçene buyurur",
+    "answer": "Trafik Polisi"
+  },
+  {
+    "id": 38,
+    "riddle": "Gökte gördüm köprü, rengi yedi türlü.",
+    "answer": "Gökkuşağı"
+  },
+  {
+    "id": 39,
+    "riddle": "Bir küçük fıçıcık, içi dolu turşucuk.",
+    "answer": "Limon"
+  },
+  {
+    "id": 40,
+    "riddle": "Yarım kaşık duvara yapışık.",
+    "answer": "Kulak"
+  },
+  {
+    "id": 41,
+    "riddle": "Uzaktan baktın bir taş, Yanına vardım dört ayak bir baş",
+    "answer": "Kaplumbağa"
+  },
+  {
+    "id": 42,
+    "riddle": "Açarsam dünya olur. Yakarsam kül olur.",
+    "answer": "Harita"
+  },
+  {
+    "id": 43,
+    "riddle": "Ağzı yok, burnu yok, karnı tok.",
+    "answer": "Yumurta"
+  },
+  {
+    "id": 44,
+    "riddle": "Benim adım beş hece kuzeyde görünürüm her gece?",
+    "answer": "Kutup yıldızı"
+  },
+  {
+    "id": 45,
+    "riddle": "Küçük küçük dişleri var, ne de büyük işleri var.",
+    "answer": "Tarak"
+  },
+  {
+    "id": 46,
+    "riddle": "Bilmece bildirmece, el üstünden kaydırmaca",
+    "answer": "Sabun"
+  },
+  {
+    "id": 47,
+    "riddle": "Bir oğlum var, kat kat gömleği var",
+    "answer": "Soğan"
+  },
+  {
+    "id": 48,
+    "riddle": "Uzaktan baktım ak taş gibi, yanına vardım sütlaç gibi",
+    "answer": "Mantar"
+  },
+  {
+    "id": 49,
+    "riddle": "Aşağı iner tıkır tıkır, yukarı çıkar şıpır şıpır.",
+    "answer": "Kova"
+  },
+  {
+    "id": 50,
+    "riddle": "Dışı var içi yok, dayak yer suçu yok.",
+    "answer": "Top"
+  },
+  {
+    "id": 51,
+    "riddle": "Çarşıdan aldım kapkara, evde kırmızılaştı maskara.",
+    "answer": "Kömür"
+  },
+  {
+    "id": 52,
+    "riddle": "Çıt der, ateş çıkar.",
+    "answer": "Kibrit"
+  },
+  {
+    "id": 53,
+    "riddle": "Dört ayağı var canı yok, ayağını kessen kanı yok.",
+    "answer": "Masa"
+  },
+  {
+    "id": 54,
+    "riddle": "Kulağını büktükçe ağzı sulanır.",
+    "answer": "Musluk"
+  },
+  {
+    "id": 55,
+    "riddle": "Ağzı var odun yutar, bacası var duman tüter.",
+    "answer": "Soba"
+  },
+  {
+    "id": 56,
+    "riddle": "Altı göl, üstü gül",
+    "answer": "Gaz Lambası"
+  },
+  {
+    "id": 57,
+    "riddle": "Her gün yeniden doğar, dünyaya haber yayar.",
+    "answer": "Gazete"
+  },
+  {
+    "id": 58,
+    "riddle": "El eker dil biçer",
+    "answer": "Yazı"
+  },
+  {
+    "id": 59,
+    "riddle": "Bakınca görünürsün, kaçınca silinirsin.",
+    "answer": "Ayna"
+  },
+  {
+    "id": 60,
+    "riddle": "Burda bağırsak,orda duysak.",
+    "answer": "Telefon"
+  },
+  {
+    "id": 61,
+    "riddle": "Bir kuyum var, iki türlü suyum var",
+    "answer": "Yumurta"
+  },
+  {
+    "id": 62,
+    "riddle": "Aldır abası, yeşildir cübbesi",
+    "answer": "Kiraz"
+  },
+  {
+    "id": 63,
+    "riddle": "Ayağımla basınca kırt kırt eder, güneşi görünce eriyip gider.",
+    "answer": "Kar"
+  },
+  {
+    "id": 64,
+    "riddle": "Hiçbir zaman baş aşağıya gelmeyen şey nedir?",
+    "answer": "Top"
+  },
+  {
+    "id": 65,
+    "riddle": "Gözle görülmez elle tutulmaz ama gelip geçtiğini biliriz",
+    "answer": "Zaman"
+  },
+  {
+    "id": 66,
+    "riddle": "Dereden karşıya gölgesiz geçer",
+    "answer": "Nefes"
+  },
+  {
+    "id": 67,
+    "riddle": "Mikropları öldürür hastaları güldürür",
+    "answer": "İlaç"
+  },
+  {
+    "id": 68,
+    "riddle": "Çizip gerçekleştirirler boyayıp zenginleştirirler.",
+    "answer": "Mimar"
+  },
+  {
+    "id": 69,
+    "riddle": "Karnı tok gölgesi yok?",
+    "answer": "Su kuyusu"
+  },
+  {
+    "id": 70,
+    "riddle": "Ağır suya ne denir?",
+    "answer": "Buz"
+  },
+  {
+    "id": 71,
+    "riddle": "Giden leyla gelen leyla ayak üstü duran",
+    "answer": "Kapı"
+  },
+  {
+    "id": 72,
+    "riddle": "Sabah alınır, akşam yayılır?",
+    "answer": "Yorgan"
+  },
+  {
+    "id": 73,
+    "riddle": "Karanlıkta görülmez.",
+    "answer": "Gölge"
+  },
+  {
+    "id": 74,
+    "riddle": "Kimse onunla yarışamaz kimse onu geçemez?",
+    "answer": "Zaman"
+  },
+  {
+    "id": 75,
+    "riddle": "Çarşısı yok pazarı yok geleni var gideni yok",
+    "answer": "Mezarlık"
+  },
+  {
+    "id": 76,
+    "riddle": "Bir erkek için traş ne zaman şart olur?",
+    "answer": "Tersten okunduğu zaman"
+  },
+  {
+    "id": 77,
+    "riddle": "Bir elin nesi var iki elin sesi var",
+    "answer": "Yardımlaşmak"
+  },
+  {
+    "id": 78,
+    "riddle": "Ellerinle tutarsın ama gözlerinle göremezsin?",
+    "answer": "Kulak"
+  },
+  {
+    "id": 79,
+    "riddle": "Ye ye bitmez, mideye gitmez.",
+    "answer": "Sakız"
+  },
+  {
+    "id": 80,
+    "riddle": "Yol alır ama yolda da bırakır?",
+    "answer": "Tekerlek"
+  },
+  {
+    "id": 81,
+    "riddle": "Bazen yücelir, bazen cücelir?",
+    "answer": "Gölge"
+  },
+  {
+    "id": 82,
+    "riddle": "Kat kat sefer tası, içinde insan sesi?",
+    "answer": "Apartman"
+  },
+  {
+    "id": 83,
+    "riddle": "Urum elinden ağzı belinden?",
+    "answer": "Yayık"
+  },
+  {
+    "id": 84,
+    "riddle": "Başkasının sırtından para kazanan kimdir?",
+    "answer": "Jokey"
+  },
+  {
+    "id": 85,
+    "riddle": "En çok hangi hayvan rüya görür?",
+    "answer": "Tembel hayvan"
+  },
+  {
+    "id": 86,
+    "riddle": "Kim çalışırken sigara içemez?",
+    "answer": "Dalgıç"
+  },
+  {
+    "id": 87,
+    "riddle": "Hangi eda ile temizlik yapılır?",
+    "answer": "Vileda"
+  },
+  {
+    "id": 88,
+    "riddle": "Metal mıknatısa ne demiş?",
+    "answer": "Çok çekicisin"
+  },
+  {
+    "id": 89,
+    "riddle": "Aşağı çevirince dolar, yukarı çevirince boşalır",
+    "answer": "Şapka"
+  },
+  {
+    "id": 90,
+    "riddle": "Ne canı var ne kanı, beş tanedir parmağı",
+    "answer": "Eldiven"
+  },
+  {
+    "id": 91,
+    "riddle": "Gözlerime takarım, etrafıma bakarım",
+    "answer": "Gözlük"
+  },
+  {
+    "id": 92,
+    "riddle": "Ben giderim o gider yanımda dum dum eder",
+    "answer": "Davul"
+  },
+  {
+    "id": 93,
+    "riddle": "Kağıt üzerinde dans eder, silgi hatalarını siler",
+    "answer": "Kalem"
+  },
+  {
+    "id": 94,
+    "riddle": "Kitabı defteri koyarım, her gün okula taşırım",
+    "answer": "Çanta"
+  },
+  {
+    "id": 95,
+    "riddle": "Bir küçücük kutudur, bütün dünya yurdudur",
+    "answer": "Radyo"
+  }
+]

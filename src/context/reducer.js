@@ -4,6 +4,7 @@ import {
   GET_GAMES,
   GET_ORIGAMIS,
   GET_QUIZES,
+  GET_RIDDLES,
 } from "./types";
 
 const reducer = (state, action) => {
@@ -36,6 +37,12 @@ const reducer = (state, action) => {
       return {
         ...state,
         quizes: payload,
+        loading: false,
+      };
+    case GET_RIDDLES:
+      return {
+        ...state,
+        riddles: payload,
         loading: false,
       };
     default:

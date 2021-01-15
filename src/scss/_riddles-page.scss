@@ -1,0 +1,111 @@
+.riddles-page {
+  .riddle-list {
+    li {
+      cursor: pointer;
+      margin-bottom: 30px;
+      border-radius: 18px;
+      background-color: $color-bilmece-bulmaca;
+      position: relative;
+      overflow: hidden;
+
+      .riddle {
+        color: $color-light;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        position: relative;
+        padding: 20px 50px 20px 50px;
+        transition: 0.3s;
+
+        span:nth-child(1) {
+          background-color: $color-dark;
+          width: 40px;
+          height: 100%;
+          margin-right: 30px;
+          border-top-left-radius: 18px;
+          border-bottom-left-radius: 18px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
+
+        span:nth-child(2) {
+          font-size: 22px;
+        }
+      }
+
+      .answer {
+        font-size: 18px;
+        position: absolute;
+        bottom: -22px;
+        left: 50px;
+        color: $color-dark;
+        font-weight: bold;
+        transition: 0.3s;
+      }
+
+      span.icon {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 40px;
+        height: 100%;
+        border-top-right-radius: 18px;
+        border-bottom-right-radius: 18px;
+        background-color: $color-light;
+
+        i {
+          color: $color-dark;
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+
+    li.toggled {
+      .riddle {
+        padding-bottom: 70px;
+      }
+
+      .answer {
+        bottom: 20px;
+      }
+
+      span.icon i {
+        transform: rotate(180deg);
+      }
+    }
+
+    li:hover {
+      background-color: darken($color-bilmece-bulmaca, 5);
+    }
+  }
+}
+
+// Media Queries
+@media (max-width: 768px) {
+  .riddles-page .riddle-list li {
+    margin-bottom: 12px;
+
+    .riddle span:nth-child(2),
+    .answer {
+      font-size: 16px;
+    }
+  }
+
+  .riddles-page .riddle-list li.toggled {
+    .riddle {
+      padding-bottom: 50px;
+    }
+
+    .answer {
+      bottom: 10px;
+    }
+  }
+}

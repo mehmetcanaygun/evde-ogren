@@ -9,6 +9,7 @@ import SingleGame from "./components/pages/SingleGame";
 import Drawing from "./components/pages/Drawing";
 import Origamis from "./components/pages/Origamis";
 import Quizes from "./components/pages/Quizes";
+import Riddles from "./components/pages/Riddles";
 import NotFound from "./components/pages/NotFound";
 
 import "./css/App.css";
@@ -26,6 +27,7 @@ function App() {
             <Route exact path="/cizim" component={Drawing} />
             <Route exact path="/origami" component={Origamis} />
             <Route exact path="/quiz" component={Quizes} />
+            <Route exact path="/bilmece-bulmaca" component={Riddles} />
             <Route component={NotFound} />
           </Switch>
           <Footer />

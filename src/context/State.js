@@ -7,6 +7,7 @@ import {
   GET_GAMES,
   GET_ORIGAMIS,
   GET_QUIZES,
+  GET_RIDDLES,
 } from "./types";
 
 const State = (props) => {
@@ -16,9 +17,31 @@ const State = (props) => {
     games: [],
     origamis: [],
     quizes: [],
+    riddles: [],
   };
 
   const [state, dispatch] = useReducer(Reducer, initialState);
+
+  // Shuffle Array
+  const shuffle = (array) => {
+    let currentIndex = array.length,
+      temporaryValue,
+      randomIndex;
+
+    // While there remain elements to shuffle...
+    while (0 !== currentIndex) {
+      // Pick a remaining element...
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex -= 1;
+
+      // And swap it with the current element.
+      temporaryValue = array[currentIndex];
+      array[currentIndex] = array[randomIndex];
+      array[randomIndex] = temporaryValue;
+    }
+
+    return array;
+  };
 
   // Set Active Link
   const setActiveLink = (path) => {
@@ -67,6 +90,19 @@ const State = (props) => {
     });
   };
 
+  // Get Riddles
+  const getRiddles = async () => {
+    setLoading();
+
+    const res = await fetch("/assets/riddles.json");
+    const data = await res.json();
+
+    dispatch({
+      type: GET_RIDDLES,
+      payload: shuffle(data),
+    });
+  };
+
   // Set Loading
   const setLoading = () => {
     dispatch({
@@ -82,10 +118,12 @@ const State = (props) => {
         games: state.games,
         origamis: state.origamis,
         quizes: state.quizes,
+        riddles: state.riddles,
         setActiveLink,
         getGames,
         getOrigamis,
         getQuizes,
+        getRiddles,
       }}
     >
       {props.children}
