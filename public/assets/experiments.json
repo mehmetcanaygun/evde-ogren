@@ -147,5 +147,55 @@
     "description": "Tonik su içerisinde bulunan kuinin isimli kimyasal doğal bir florasandır. Daha doğru tabiriyle, kuanin yüksek florasan kuantum verimine sahiptir. Kuantum verimi, bir kimyasal tarafından emilen ışığın ne kadar verimli bir şekilde optik efektler yapabildiğini gösteren bir değerdir. Eğer bir kimyasalın kuantum verimi yeterince yüksekse, normal güneş ışığı altında bile parlayacaktır. Kuinin gibi kimyasallar fotonları emdiklerinde, emilen dalgaboyundan farklı bir dalgaboyunu etrafa saçarlar. Eğer emilen fotonlar mor ötesi dalgaboylarında ise, saçılan ışık dalgaları görülebilir spektrumda olacak ve 'siyah ışık' olarak da bilinen UV ışık altında bu şekilde, radyoaktifmiş gibi görülecektir.Radyoaktif gibi gözüken jölenizi afiyetle yiyebilirsiniz.",
     "imgPath": "/assets/img/7-parildayan-jole.webp",
     "source": "https://evrimagaci.org/cocuklar-icin-evinizde-veya-okullarda-yapabileceginiz-7-eglenceli-deney-4900"
+  },
+  {
+    "id": "8",
+    "title": "Pipet ile Patates Delme",
+    "attention": "",
+    "header": "Patatesleri pipet ile delmek mümkün mü? Hava basıncının şaşırtıcı şekillerde nasıl kullanılabileceğini gösteren bu eğlenceli anasınıfı deneyiyle hemen nasıl yapıldığını öğrenebilirsiniz.",
+    "ingredients": ["Çiğ patates", "Sert pipet"],
+    "steps": [
+      "Plastik pipeti yanlarından tutun (üstteki deliği kapatmadan) ve patatesleri hızlı bir şekilde delmeyi deneyin, ne oldu?",
+      "Deneyi yeni bir pipetle tekrarlayın, ancak bu sefer baş parmağınız ile pipetin üstteki değilini kapatın."
+    ],
+    "description": "Baş parmağınızı pipetin üstündeki deliğin üzerine yerleştirmek, patates derisini delme ve pipeti patatesin derinliklerine itme gücünüzü arttırır. Denemeyi pipetin üstündeki deliği kapatmadan yaptığınızda ise sadece az miktarda patates delmiş olabilirsiniz, peki ikinci denemede neden daha başarılısınız?",
+    "imgPath": "/assets/img/8-pipet-ile-patates-delme.jpg",
+    "source": "https://okul.com.tr/okul-oncesi/makaleleri/okul-oncesi-cocuklar-icin-deneyler-524"
+  },
+  {
+    "id": "9",
+    "title": "Şekeri Farklı Isılarda Çözme",
+    "attention": "",
+    "header": "Heyecan verici bilim dünyasını hayata geçirmeye yardımcı olan bu anaokulu deneyi çocuklar için eğlenceli ve bir o kadar da öğretici bir fen etkinliğidir. Bu etkinlik okul öncesi fen deneyleri arasında oldukça bilinmektedir.",
+    "ingredients": [
+      "Küp Şeker",
+      "Bir bardak soğuk su",
+      "Bir bardak sıcak su",
+      "Kaşık"
+    ],
+    "steps": [
+      "Bardaklarda eşit miktarda su olduğundan emin olun.",
+      "Soğuk suya bir küp şeker koyun ve şeker kaybolana kadar kaşıkla karıştırın. Bardağa şeker atmaya devam edin ve şeker çözülmeyi durdurana kadar bu işlemi tekrarlayın (suya koyduğunuz şeker küplerinin sayısını saymayı unutmayın). Şeker çözülmek yerine camın dibinde toplanmaya başladığında bu bardaktaki işleminiz bitmiş demektir.",
+      "Aynı işlemi sıcak su için tekrarlayın, soğuk ve sıcak suda çözünen şeker küplerinin sayısını karşılaştırın, hangisinde daha fazla çözüldü?"
+    ],
+    "description": "Soğuk suda daha az küp şeker çözüleceğini göreceksiniz. Bunun nedeni sıcak suyun, soğuk sudaki moleküllerden daha fazla yayılan daha hızlı hareket eden moleküllere sahip olmasıdır. Sıcak sudaki moleküller arasında daha büyük boşluklar vardır ve bu da moleküller arasına daha fazla şeker sığmasını sağlar.",
+    "imgPath": "/assets/img/9-sekeri-farkli-isilarda-cozme.jpg",
+    "source": "https://okul.com.tr/okul-oncesi/makaleleri/okul-oncesi-cocuklar-icin-deneyler-524"
+  },
+  {
+    "id": "10",
+    "title": "Suda Yüzen Yumurta",
+    "attention": "",
+    "header": "Okul öncesi fen deneyleri arasında öğrencilerin en çok sevdiği deneylerin başında yumurta ile yapılanlar gelmektedir. Bir yumurtayı bir bardak normal içme suyuna düşürürseniz dibe batar, ancak tuz eklerseniz ne olur? Sonuçlar ilginç olmakla beraber, yoğunluk hakkında bazı gerçekleri öğretiyor.",
+    "ingredients": ["Bir yumurta", "Su", "Tuz", "Uzun bardak"],
+    "steps": [
+      "Yaklaşık yarısı dolana kadar bardağa su dökün.",
+      "Bol tuz (yaklaşık 6 yemek kaşığı) ilave edin.",
+      "Bardak dolana kadar dikkatlice normal suya dökün (tuzlu suyu normal suyla karıştırmamaya dikkat edin).",
+      "Yumurtayı yavaşça suya indirin ve ne olduğunu izleyin."
+    ],
+    "description": "Tuzlu su sıradan musluk suyundan daha yoğundur, sıvı ne kadar yoğun olursa bir nesnenin içinde yüzmesi o kadar kolay olur. Yumurtayı suya bıraktığınızda, musluk suya batacaktır, tuzlu suya geldiğinde ise su yumurtanın yüzmesi için yeterince yoğundur. Musluk suyunu tuzlu suya eklerken dikkatli olursanız, yumurtanın camın ortasında yüzdüğünü göreceksiniz.",
+    "imgPath": "/assets/img/10-suda-yuzen-yumurta.jpg",
+    "source": "https://okul.com.tr/okul-oncesi/makaleleri/okul-oncesi-cocuklar-icin-deneyler-524"
   }
 ]
