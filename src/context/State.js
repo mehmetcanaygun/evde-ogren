@@ -8,6 +8,7 @@ import {
   GET_ORIGAMIS,
   GET_QUIZES,
   GET_RIDDLES,
+  GET_FACTS,
 } from "./types";
 
 const State = (props) => {
@@ -18,6 +19,7 @@ const State = (props) => {
     origamis: [],
     quizes: [],
     riddles: [],
+    facts: [],
   };
 
   const [state, dispatch] = useReducer(Reducer, initialState);
@@ -103,6 +105,19 @@ const State = (props) => {
     });
   };
 
+  // Get Facts
+  const getFacts = async () => {
+    setLoading();
+
+    const res = await fetch("/assets/facts.json");
+    const data = await res.json();
+
+    dispatch({
+      type: GET_FACTS,
+      payload: data,
+    });
+  };
+
   // Set Loading
   const setLoading = () => {
     dispatch({
@@ -119,11 +134,13 @@ const State = (props) => {
         origamis: state.origamis,
         quizes: state.quizes,
         riddles: state.riddles,
+        facts: state.facts,
         setActiveLink,
         getGames,
         getOrigamis,
         getQuizes,
         getRiddles,
+        getFacts,
       }}
     >
       {props.children}

@@ -609,6 +609,25 @@ a {
   color: #fa8b68;
 }
 
+.home-page .grid .riddle .ans {
+  width: 200px;
+  height: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+  border-radius: 18px;
+  background-color: #d82158;
+  color: #eeeeee;
+}
+
+.home-page .grid .riddle .ans:hover {
+  background-color: #ac1a46;
+}
+
 .home-page .grid .trivia span {
   color: #d82158;
 }

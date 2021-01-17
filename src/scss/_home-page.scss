@@ -133,6 +133,22 @@
     .riddle span {
       color: $color-bilmece-bulmaca;
     }
+
+    .riddle .ans {
+      width: 200px;
+      height: 40px;
+      justify-content: center;
+      align-items: center;
+      margin-top: 10px;
+      border-radius: 18px;
+      background-color: $color-secondary;
+      color: $color-light;
+    }
+
+    .riddle .ans:hover {
+      background-color: darken($color-secondary, 10);
+    }
+
     .trivia span {
       color: $color-secondary;
     }

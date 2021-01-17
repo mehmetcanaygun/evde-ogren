@@ -21,7 +21,7 @@ const Navbar = () => {
     ["/origami", "Origami"],
     ["/quiz", "Quiz"],
     ["/ingilizce", "İngilizce"],
-    ["/galeri", "Fotoğraf Galerisi"],
+    ["/bilmece-bulmaca", "Bilmece Bulmaca", "#fa8b68"],
   ];
 
   // Disable scroll bar when menu is toggled

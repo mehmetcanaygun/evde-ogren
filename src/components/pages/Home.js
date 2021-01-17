@@ -1,9 +1,23 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Context from "../../context/context";
+import Loading from "../layout/Loading";
 
 const Home = () => {
   const context = useContext(Context);
+  const { getFacts, facts, loading, getRiddles, riddles } = useContext(Context);
+
+  const setFact = (arr) => {
+    const date = new Date();
+    return arr[date.getDate()].fact;
+  };
+
+  useEffect(() => {
+    getRiddles();
+    getFacts();
+
+    // eslint-disable-next-line
+  }, []);
 
   const siteLinks = [
     ["/oyunlar", "Oyunlar", "#00b6ff"],
@@ -13,7 +27,6 @@ const Home = () => {
     ["/quiz", "Quiz", "#29e833"],
     ["/ingilizce", "İngilizce", "#ed25be"],
     ["/bilmece-bulmaca", "Bilmece Bulmaca", "#fa8b68"],
-    ["/galeri", "Fotoğraf Galerisi", "#f93b3b"],
   ];
 
   return (
@@ -50,10 +63,17 @@ const Home = () => {
             <i className="fas fa-star"></i>
           </span>
           <h2>Günün Bilmecesi</h2>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore,
-            quae!
-          </p>
+
+          {riddles.map((riddle, index) =>
+            riddle.id === new Date().getDate() ? (
+              <p key={index}>
+                <p className="rid">{riddle.riddle}</p>
+                <button className="ans" onClick={() => alert(riddle.answer)}>
+                  Cevabı görmek için tıkla
+                </button>
+              </p>
+            ) : null
+          )}
         </div>
         <div className="trivia">
           <span className="icon">
@@ -61,8 +81,9 @@ const Home = () => {
           </span>
           <h2>Günün Bilgisi</h2>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore,
-            quae!
+            {facts.map((fact, index) =>
+              index === new Date().getDate() ? fact.fact : null
+            )}
           </p>
         </div>
         <div className="experiment">

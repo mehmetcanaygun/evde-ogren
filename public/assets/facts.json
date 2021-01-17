@@ -1,0 +1,117 @@
+[
+  { "id": 1, "fact": "Su samurları el ele tutuşarak uyurlar." },
+
+  {
+    "id": 2,
+    "fact": "Leonardo Da Vinci aynı anda bir eliyle yazı yazıp diğer eliyle resim yapabiliyordu."
+  },
+
+  {
+    "id": 3,
+    "fact": "Taklitçi ahtapot isimli ahtapot, sadece renk değiştirmekle kalmıyor, aynı zamanda dil balığı, aslan balığı ve deniz yılanı gibi hayvanların şekline de bürünebiliyor."
+  },
+
+  {
+    "id": 4,
+    "fact": "Dünyada yaşayan tüm insanları oluşturan atomlardaki boşluklar çıkarılırsa tüm dünya nüfusu bir elmaya sığabilir."
+  },
+
+  { "id": 5, "fact": "Dünyadaki insanların üçte ikisi hiç kar görmedi." },
+
+  {
+    "id": 6,
+    "fact": "Artık nesli tükenmiş olan 'Yünlü mamut' isimli mamut türünün canlıları Mısır Piramitleri inşa edilirken varlardı."
+  },
+
+  {
+    "id": 7,
+    "fact": "Ortalama bir insan, ömrü boyunca dünyanın çevresini yaklaşık üç defa dolaşacak kadar yürür."
+  },
+
+  { "id": 8, "fact": "Bir denizanasının %95'i sudan oluşmaktadır." },
+
+  {
+    "id": 9,
+    "fact": "İneklerin en iyi arkadaşları vardır ve onlardan uzaklaştırıldıklarında stres yaşarlar."
+  },
+
+  {
+    "id": 10,
+    "fact": "Karda gizlenmeye çalışan bir kutup ayısı, siyah burnunu pençesiyle kapatır."
+  },
+
+  {
+    "id": 11,
+    "fact": "Yalnızca tavşanlar ve papağanlar, kafalarını çevirmeden arkalarını görebilirler."
+  },
+
+  {
+    "id": 12,
+    "fact": "Kalbin yeri dolayısıyla sol akciğer, sağdakinden daha küçüktür."
+  },
+
+  {
+    "id": 13,
+    "fact": "İpek böcekleri, 56 günde kendi ağırlıklarının 86.000 katı kadar beslenirler."
+  },
+
+  {
+    "id": 14,
+    "fact": "Her Labrador retriever, ara sıra muzlar hakkında rüya görür."
+  },
+
+  { "id": 15, "fact": "111.111.111 x 111.111.111 = 12.345.678.987.654.321" },
+
+  {
+    "id": 16,
+    "fact": "Dünyanın en geniş yolu olan Brezilya'daki Anıtsal Eksen'de 160 araba yan yana gidebilir."
+  },
+
+  {
+    "id": 17,
+    "fact": "İnekler, bir günde insanlardan 200 kat daha fazla gaz üretirler."
+  },
+
+  { "id": 18, "fact": "Yusufçukların ömürleri yaklaşık 24 saattir." },
+
+  {
+    "id": 19,
+    "fact": "Zürafalar yaklaşık 53 cm'lik dilleri ile kendi kulaklarını temizleyebilirler."
+  },
+
+  {
+    "id": 20,
+    "fact": "Gıda renklendiricileri eklenmeseydi eğer, kolanın rengi yeşil olurdu."
+  },
+
+  { "id": 21, "fact": "Zürafalar susuzluğa devlerden daha iyi dayanırlar." },
+
+  {
+    "id": 22,
+    "fact": "Köpek balıkları, her iki gözlerini de kırpabilen tek balıklardır."
+  },
+
+  { "id": 23, "fact": "Dünyanın yalnızca %11'i solaktır." },
+
+  { "id": 24, "fact": "İnsanın kalça kemiği betondan sağlamdır." },
+
+  { "id": 25, "fact": "Dünyanın en eski sakızı 9.000 yaşındadır." },
+
+  { "id": 26, "fact": "İguanalar su altında 28 dakika kalabilirler." },
+
+  { "id": 27, "fact": "Devekuşlarının gözleri beyinlerinden büyüktür." },
+
+  {
+    "id": 28,
+    "fact": "Yarasalar, bir mağaradan çıktıklarında her zaman sola dönerler."
+  },
+
+  { "id": 29, "fact": "Yunuslar bir gözleri açık uyurlar." },
+
+  { "id": 30, "fact": "İnsanlar, yılda ortalama 5 milyon kez nefes alırlar." },
+
+  {
+    "id": 31,
+    "fact": "Atlı insan heykellerinde, atın iki ön ayağı da havadaysa kişi savaşta ölmüştür, atın tek ayağı havadaysa kişi savaşta aldığı yaralar yüzünden ölmüştür, atın tüm ayakları yere değiyorsa o kişi doğal sebeplerden ölmüştür."
+  }
+]
