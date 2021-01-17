@@ -107,10 +107,12 @@
 
     h2 {
       font-size: 24px;
+      margin-bottom: 30px;
     }
 
     h3 {
       font-size: 20px;
+      margin-bottom: 20px;
     }
 
     p.attention {
@@ -123,8 +125,17 @@
       font-size: 16px;
     }
 
-    ul li {
-      margin-bottom: 10px;
+    ul {
+      padding-left: 0px;
+    }
+
+    p.header {
+      border: 1px dashed $color-dark;
+      padding: 10px;
+    }
+
+    a {
+      font-size: 14px;
     }
   }
 }

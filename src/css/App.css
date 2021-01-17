@@ -1248,9 +1248,11 @@ a {
   }
   .experiments-container .experiment h2 {
     font-size: 24px;
+    margin-bottom: 30px;
   }
   .experiments-container .experiment h3 {
     font-size: 20px;
+    margin-bottom: 20px;
   }
   .experiments-container .experiment p.attention {
     font-size: 14px;
@@ -1260,8 +1262,15 @@ a {
   .experiments-container .experiment ul li {
     font-size: 16px;
   }
-  .experiments-container .experiment ul li {
-    margin-bottom: 10px;
+  .experiments-container .experiment ul {
+    padding-left: 0px;
+  }
+  .experiments-container .experiment p.header {
+    border: 1px dashed #202020;
+    padding: 10px;
+  }
+  .experiments-container .experiment a {
+    font-size: 14px;
   }
 }
 /*# sourceMappingURL=App.css.map */
