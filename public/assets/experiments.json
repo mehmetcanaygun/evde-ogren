@@ -1,0 +1,151 @@
+[
+  {
+    "id": "1",
+    "title": "Yumurta Yiyen Canavar",
+    "attention": "Dikkat! Deneyimiz kibrit veya çakmak kullanımı gerektirdiğinden bir yetişkin denetiminde yapılması gerektiğini hatırlatırız!",
+    "header": "Çocuğunuzu “hava basıncı” sayesinde pişmiş yumurta yemeye bayılan bir canavarla tanıştırmayı ister misiniz? O halde deneyimizi yapmaya başlayalım.",
+    "ingredients": [
+      "Cam bir şişe. Ancak şişe ağzının, yumurtanın geçebileceği genişlikten biraz daha dar olması gerekir.",
+      "Renkli el işi kağıtları ve yapıştırıcı (canavarın yapımı için)",
+      "1 adet katı haşlanmış ve kabukları soyulmuş yumurta",
+      "1 veya 2 adet pasta mumu",
+      "Kibrit ya da çakmak"
+    ],
+    "steps": [
+      "Bir ya da iki adet pasta mumunu haşlanmış katı haşlanmış yumurtanın geniş olan ucu üzerine oturtunuz.",
+      "Mumu yakınız. Ters çevrilmiş şişenin içindeki havayı ısıtmak için mumu şişenin ağız kısmına doğru dik bir şekilde tutunuz.",
+      "Mum şişenin içerisinde kalacak ve içeriye hava girişini engelleyecek şekilde şişeyi yumurtanın üzerine yerleştiriniz. Mum sönene ve yumurta “hava basıncı” etkisiyle şişenin içine itilene (canavar yumurtayı yiyene dek) yumurtayı tutunuz. (Hava basıncı: Havanın yeryüzündeki bir alan üzerine uyguladığı kuvvet.)"
+    ],
+    "description": "Mumun alevi şişenin içindeki havayı ısıtır. Şişenin içerisinde oksijen tükenince mum söner ve geriye kalan hava çabucak soğur. Bu soğuma, şişenin içerisindeki hava basıncını azaltarak kısmi bir vakum ortamı oluşturur. Bu durumda şişenin dışındaki havanın atmosfer basıncı, şişenin içerisindeki hava basıncına kıyasla daha yüksektir. Yumurtanın şişenin içine doğru çekilmesi ise şişenin içerisindeki basıncın dışarıdaki atmosfer basıncı ile dengelenmesi esnasında oluşur.",
+    "imgPath": "/assets/img/1-yumurta-yiyen-canavar.webp",
+    "source": "https://evrimagaci.org/cocuklar-icin-evinizde-veya-okullarda-yapabileceginiz-7-eglenceli-deney-4900"
+  },
+  {
+    "id": "2",
+    "title": "Sihirli Çubuk Şeker",
+    "attention": "",
+    "header": "Şimdi de minikleri “sihirli” bir çubuk şekerle şaşırtmaya ne dersiniz? Evet, çubuk şeker sıradan bir şekerleme ama işin içine biraz bilim katarak onu “sihirli” yapabilir ve çocuklarınıza bu keyifli göz yanılsaması hakkında biraz bilgi verebilirsiniz. ",
+    "ingredients": [
+      "1 adet çubuk şeker",
+      "1 adet limonata bardağı",
+      "Yemeklik yağ (ayçiçeği yağı ya da zeytinyağı)"
+    ],
+    "steps": [
+      "Yarısına gelecek şekilde limonata bardağına yağı koyunuz.",
+      "Çubuk şekeri bardağın içine koyunuz. Yağın yüzeyine baktığınızda şeker ortasından kesilmiş gibi gözükecektir.",
+      "Çocuğunuzu biraz daha şaşırtmak için şekeri bardağın kenarına yaslayınız (Düzgün bir şekilde yaslanması için şekeri alt kısmından biraz eğerek bardağın dibine oturtabilirsiniz.) Bardağın kenarına bakınız ve bardağı yavaşça döndürünüz. Şekerin bir pastel boya kalınlığı gibi genişlediğini ya da bir çubuk makarna gibi inceldiğini görebiliyor musunuz? Ya tamamen görünmez kılabiliyor musunuz?"
+    ],
+    "description": "Aslında hepimiz bir bardak suyun içindeki kaşığın nasıl kırılmış gibi gözüktüğünü biliriz. Bunun sebebi, suyun ışığı kırarak nesnelerin kırılmış gibi gözükmelerini sağlamasındandır. Peki deneyimizde neden su değil de yağ kullandık? Çünkü yağ, suya göre ışığı daha fazla kırmaktadır. Hatta o kadar fazla kırar ki bardağa doğru açıdan bakarsanız, bardağın içindeki nesneyi kaybolmuş gibi görebilirsiniz. ",
+    "imgPath": "/assets/img/2-sihirli-cubuk-seker.webp",
+    "source": "https://evrimagaci.org/cocuklar-icin-evinizde-veya-okullarda-yapabileceginiz-7-eglenceli-deney-4900"
+  },
+  {
+    "id": "3",
+    "title": "Görünmez Yazılar",
+    "attention": "",
+    "header": "Şimdi de dedektiflik oynamaya ne dersiniz? Kolaylıkla bulabileceğiniz birkaç malzeme yardımıyla kağıda yazdığınız yazıları ya da çizdiğiniz resimleri görünmez yapabilir, daha sonra ufak bir “hokus pokus”la onları görünür kılabilirsiniz. ",
+    "ingredients": [
+      "Yarım limon",
+      "Su",
+      "Kaşık",
+      "Küçük bir kase",
+      "Kulak çubuğu",
+      "Beyaz kağıt"
+    ],
+    "steps": [
+      "Küçük bir kasenin içine biraz limon sıkıp üzerine birkaç damla su damlatınız. Kaşık yardımıyla su ve limon suyunu karıştırınız.",
+      "Kulak çubuğunu bu karışıma daldırınız ve daha sonra ıslanmış kulak çubuğuyla beyaz bir kağıda çocuğunuzun hoşuna gideceğini düşündüğünüz yazılar yazınız veya resimler yapınız.",
+      "Hazırladığınız sıvı ile yazılmış yazılar görünmez hale gelene kadar kağıdın kurumasını bekleyiniz.",
+      "Gizli mesajınızı görünür hale getirmek istediğinizde kağıdı lamba gibi bir ışık kaynağının yanına yaklaştırırken o sihirli iki sözcüğü, yani “hokus pokus”u, söylemeyi unutmayınız… Ve işte o çok gizli mesaj göründü!"
+    ],
+    "description": "Limon suyu, ısıtıldığında oksitlenen ve böylelikle kahverengi bir renk alan organik bir maddedir. Limon suyunu su ile seyreltmek (kağıda uygulandığında) onun görünmez olmasını; ancak ısıtıldığında gizli mesajın görünür olmasını sağlayacaktır. Deneyimiz, limon suyu yerine, portakal suyu, bal, soğan suyu veya sirke kullanılarak da yapılabilir.",
+    "imgPath": "/assets/img/3-gorunmez-yazilar.webp",
+    "source": "https://evrimagaci.org/cocuklar-icin-evinizde-veya-okullarda-yapabileceginiz-7-eglenceli-deney-4900"
+  },
+  {
+    "id": "4",
+    "title": "Dans Eden Sevimli Hayalet",
+    "attention": "",
+    "header": "“Oturmaya mı geldin, sevimli hayaletçik? Haydi eller havaya!” Hayaletimiz dans etmeye biraz isteksiz olsa da biz onu dans ettirmenin bir yolunu biliyoruz: Statik elektrik. Buyurun deneyimize başlayalım.",
+    "ingredients": [
+      "1 adet kağıt mendil",
+      "Bir adet balon",
+      "Makas",
+      "Keçeli kalem",
+      "(İsteğe göre) fonda çalan müzik"
+    ],
+    "steps": [
+      "Kağıt mendili keserek yaklaşık 4 cm uzunluğunda ve kollarını V şeklinde yukarıya kaldırmış bir hayalet yapınız. Keçeli kalem kullanarak hayalete sevimli bir yüz çiziniz. Eğer iki katlı bir kağıt mendil kullanıyorsanız, olabildiğince ince yapmak için her bir katı birbirinden ayırınız. (Fazla hayaletten zarar gelmez, öyle değil mi?)",
+      "Hayaletin ayaklarını şeffaf bant yardımıyla bir yüzeye sabitleyiniz.",
+      "Balonu şişirin ve ucunu bağlayınız. Sonra yaklaşık 10 saniye boyunca balonu saçınıza sürtünüz. Bu, statik elektrik oluşmasına yol açacaktır.",
+      "Balonu yavaşça hayaletin yanına yaklaştırarak onun yukarıya, yani balona doğru süzülmesini sağlayınız. Hatta eğer ayaklarını bir yüzeye sabitlemezseniz, biraz pratikle, hayaletin havada dans etmesini sağlayabilirsiniz. Havadaki hareketlerini daha iyi kontrol edebilmek için deneyi farklı kağıt türleriyle tekrarlayınız."
+    ],
+    "description": "Balonu saçınıza ya da yünlü bir giysiye sürttüğünüzde, (negatif elektrik yüke sahip) elektronlar balonun yüzeyine toplanırlar. Elektronlar, pozitif yüke sahip hafif nesneleri (kağıt mendilden yapılmış bir hayalet gibi şeyleri) kendilerine çekebilirler. Ayrıca bu deneyi hayaletlerin gerçek olmadığını çocuklara öğretmek için bir fırsat olarak görebilirsiniz!",
+    "imgPath": "/assets/img/4-dans-eden-sevimli-hayalet.png",
+    "source": "https://evrimagaci.org/cocuklar-icin-evinizde-veya-okullarda-yapabileceginiz-7-eglenceli-deney-4900"
+  },
+  {
+    "id": "5",
+    "title": "Kendi Kendine Şişen Balonlar",
+    "attention": "",
+    "header": "Balon şişirmekten yoruldunuz mu? O halde, bu işi sizin için keyifli; çocuğunuz için ise eğlenceli bir oyun/deney haline getirelim. ",
+    "ingredients": [
+      "3 adet boş plastik su şişesi",
+      "Sirke",
+      "3 yemek kaşığı kabartma tozu",
+      "3 adet balon",
+      "Sıvı gıda renklendiric",
+      "Huni"
+    ],
+    "steps": [
+      "Huni aracılığıyla her bir balonun içerisine birer kaşık kabartma tozu dökünüz.",
+      "Her bir şişenin içine şişenin 1/5’i kadar sirke ve birkaç damla gıda renklendirici koyunuz. (Her bir şişeye farklı renk gıda renklendirici kullanırsanız daha hoş bir görüntü elde edersiniz.)",
+      "Balon ağızlarını şişe boyunlarına sıkıca geçiriniz. Bu işlemi yaparken kabartma tozunun şişe içerisine kaçmamasına özen gösteriniz.",
+      "Şimdi de kabartma tozunun sirkeyle karışması için balonları yukarıya doğru kaldırınız. Kabartma tozu, sirkeyle buluşur buluşmaz bir reaksiyon başlayacak, bu da balonların kendi kendilerine şişmelerini sağlayacaktır."
+    ],
+    "description": "Sirke ve kabartma tozu şişe gibi bir kabın içerisinde tepkimeye girdiği zaman karbondioksit açığa çıkarır. Karbondioksit gazı, kap içerisinde kendine daha fazla yer bulamayınca “püskürme” meydana gelir. Bu püskürme sonucunda ise şişe ağzına tutturulmuş balon şişmeye başlar.",
+    "imgPath": "/assets/img/5-kendi-kendine-sisen-balonlar.jpg",
+    "source": "https://evrimagaci.org/cocuklar-icin-evinizde-veya-okullarda-yapabileceginiz-7-eglenceli-deney-4900"
+  },
+  {
+    "id": "6",
+    "title": "Sıvı Sabunla Giden Gemi",
+    "attention": "",
+    "header": "Hayali, büyüyünce bir gemi kaptanı olmak isteyen çocuğunuza, suda kendiliğinden giden bir gemi yapmaya ne dersiniz?",
+    "ingredients": [
+      "Şekildeki gibi kesilmiş bir strafor parçası",
+      "Sıvı sabun ya da mürekkep"
+    ],
+    "steps": [
+      "Geminin geniş ucundan yaklaşık 1 cm içeriye doğru olacak şekilde bir delgeç yardımıyla delik açın ve daha sonra makas yardımıyla o 1 cm'lik yeri kesin (şekilde mavi okla gösterilmiştir).",
+      "Gemiyi suya koyduktan hemen sonra, deliğin üzerine bir damla sıvı sabun ya da mürekkep damlatın. Sıvı sabun/mürekkep delikten dışarı doğru (mavi ok) sızdıkça geminiz kendiliğinden bir süre boyunca gidecektir."
+    ],
+    "description": "Çocuğunuz doğal olarak geminin nasıl hareket ettiğini merak edecektir. Bunun sebebi nesnelerin, yüzey gerilimi az olan akışkandan yüksek olana doğru hareket etme eğilimidir. Buna Marangoni Etkisi denmektedir. Sıvı sabun/mürekkep, suya kıyasla, daha düşük bir yüzey gerilimine sahiptir. Bu nedenle, geminin yakıt haznesine (delgeçle açtığımız deliğe) damlatmış olduğumuz bir damla sıvı sabun, gemiyi çevreleyen suya doğru, yani yüzey gerilimi yüksek olan ortama doğru çekilir. Bu da geminin suda yüzmesini sağlar. Şunu da belirtmemiz gerekir ki deneyi aynı suda sadece bir kez yapabilirsiniz. Bunun sebebi sabunun kayganlaştırıcı özelliğidir. Sıvı sabun molekülleri geminin bulunduğu suyun yüzeyine yayıldığında bu su da artık sıvı sabunla aynı yüzey gerilimine sahip olur. Farklı yüzey gerilimi olmayınca, elbette ki, gemimiz hareket edemez. Aynı deneyi, bir kapta, bir yaprağın ucuna sıvı sabun/mürekkep dökerek de yapabilirsiniz.",
+    "imgPath": "/assets/img/6-soap-boat.jpg",
+    "source": "https://evrimagaci.org/cocuklar-icin-evinizde-veya-okullarda-yapabileceginiz-7-eglenceli-deney-4900"
+  },
+  {
+    "id": "7",
+    "title": "Parıldayan Jöle",
+    "attention": "",
+    "header": "Mutfaklarımıza göreceli olarak sonradan giren bir tatlı olan jöle, birçok kişinin beğenerek yediği bir tatlı diye düşünüyoruz. Peki bu jöleyi ışıl ışıl parıldayacak şekilde yapmak nasıl olurdu? Bu deneyimizde hep birlikte gizemli bir şekilde parıldayan bir jöle yapacağız! Hem de çok kolay bir şekilde...",
+    "ingredients": [
+      "Dilediğiniz bir markadan 1 paket jöle (genelde marketlerde hazır olarak satılmaktadır, mümkünse yeşil renkte olanlardan alınız, en iyi sonuçlar için kırmızı renkte olanlardan kaçınınız)",
+      "400 mililitre su",
+      "300 mililitre tonik su (Schweppes)",
+      "UV (Mor Ötesi) Lamba (bunu bulmanız biraz zor olabilir ama kırtasiyelerde satılan 'gizli mesaj kalemleri' gibi kalemlerin arkasında bulunan UV ışıklar bile işinizi görecektir)"
+    ],
+    "steps": [
+      "100 mililitre normal suyu kaynatın ve kaynadıktan sonra tüm paket jöleyle karıştırın.",
+      "Karışımın üzerine 200 mililitre soğuk su ekleyin.",
+      "Bunların üzerine 300 mililitre tonik su ekleyin.",
+      "İyice karıştırın.",
+      "Karışımı bardaklara ve kaplara doldurun.",
+      "Bardaklarınızı ve kaplarınızı buzluğa atın.",
+      "Jöle kıvamını alınca çıkarın ve karanlıkta, UV ışık altında jölelerinizi gözleyin. Ürkünç bir şekilde, radyoaktifmiş gibi yeşilimsi-mavimsi olarak parladığını gözleyin."
+    ],
+    "description": "Tonik su içerisinde bulunan kuinin isimli kimyasal doğal bir florasandır. Daha doğru tabiriyle, kuanin yüksek florasan kuantum verimine sahiptir. Kuantum verimi, bir kimyasal tarafından emilen ışığın ne kadar verimli bir şekilde optik efektler yapabildiğini gösteren bir değerdir. Eğer bir kimyasalın kuantum verimi yeterince yüksekse, normal güneş ışığı altında bile parlayacaktır. Kuinin gibi kimyasallar fotonları emdiklerinde, emilen dalgaboyundan farklı bir dalgaboyunu etrafa saçarlar. Eğer emilen fotonlar mor ötesi dalgaboylarında ise, saçılan ışık dalgaları görülebilir spektrumda olacak ve 'siyah ışık' olarak da bilinen UV ışık altında bu şekilde, radyoaktifmiş gibi görülecektir.Radyoaktif gibi gözüken jölenizi afiyetle yiyebilirsiniz.",
+    "imgPath": "/assets/img/7-parildayan-jole.webp",
+    "source": "https://evrimagaci.org/cocuklar-icin-evinizde-veya-okullarda-yapabileceginiz-7-eglenceli-deney-4900"
+  }
+]

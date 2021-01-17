@@ -51,8 +51,9 @@ const Home = () => {
           Evde<span>Öğren</span>'e Hoşgeldiniz!
         </h1>
         <p>
-          Çeşitli oyunlar, deneyler, bilmeceler ve çok daha fazlası ile evde
-          aileniz ve sevdiklerinizle keyifli vakit geçirin!
+          Pandemi döneminde evde kalan çocukların eğlenerek öğrenebilmelerini
+          sağlayan, oyunlar, etkinlikler, ilginç deneyler ve daha fazlasını
+          bulabileceğiniz Evde Öğren'e hoş geldiniz!
         </p>
         <div className="mouse"></div>
       </div>

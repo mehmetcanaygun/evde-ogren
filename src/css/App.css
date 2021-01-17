@@ -1144,4 +1144,124 @@ a {
     bottom: 10px;
   }
 }
+
+.experiments-container .experiment {
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #979797;
+}
+
+.experiments-container .experiment h2 {
+  font-size: 32px;
+  font-family: "Spicy Rice", cursive;
+  margin-bottom: 40px;
+}
+
+.experiments-container .experiment h3 {
+  font-size: 22px;
+  margin-bottom: 30px;
+  color: #3b42f9;
+}
+
+.experiments-container .experiment .img {
+  width: 800px;
+  height: 600px;
+  margin-bottom: 40px;
+  background-color: #000;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  border-radius: 18px;
+  -webkit-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.75);
+}
+
+.experiments-container .experiment p.attention {
+  font-size: 18px;
+  color: #d82158;
+  font-weight: bold;
+  margin-bottom: 40px;
+  line-height: 1.4;
+}
+
+.experiments-container .experiment p.header {
+  font-size: 22px;
+  line-height: 1.4;
+  padding: 20px;
+  margin: 0;
+  margin-bottom: 40px;
+  border-radius: 18px;
+  background-color: rgba(59, 66, 249, 0.6);
+  color: #eeeeee;
+}
+
+.experiments-container .experiment ul {
+  margin-bottom: 40px;
+  padding-left: 30px;
+}
+
+.experiments-container .experiment ul li {
+  margin-bottom: 20px;
+  font-size: 22px;
+  line-height: 1.4;
+}
+
+.experiments-container .experiment ul li span {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #3b42f9;
+  color: #eeeeee;
+}
+
+.experiments-container .experiment p.description {
+  font-size: 22px;
+  line-height: 1.4;
+  margin-bottom: 40px;
+}
+
+.experiments-container .experiment a {
+  padding: 12px 20px;
+  font-size: 18px;
+  border-radius: 50px;
+  background-color: #3b42f9;
+  color: #eeeeee;
+}
+
+.experiments-container .experiment a:hover {
+  background-color: #0a12f7;
+}
+
+@media (max-width: 1024px) {
+  .experiments-container .experiment .img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .experiments-container .experiment .img {
+    height: 300px;
+  }
+  .experiments-container .experiment h2 {
+    font-size: 24px;
+  }
+  .experiments-container .experiment h3 {
+    font-size: 20px;
+  }
+  .experiments-container .experiment p.attention {
+    font-size: 14px;
+  }
+  .experiments-container .experiment p.header,
+  .experiments-container .experiment p.description,
+  .experiments-container .experiment ul li {
+    font-size: 16px;
+  }
+  .experiments-container .experiment ul li {
+    margin-bottom: 10px;
+  }
+}
 /*# sourceMappingURL=App.css.map */

@@ -9,6 +9,7 @@ import {
   GET_QUIZES,
   GET_RIDDLES,
   GET_FACTS,
+  GET_EXPERIMENTS,
 } from "./types";
 
 const State = (props) => {
@@ -20,6 +21,7 @@ const State = (props) => {
     quizes: [],
     riddles: [],
     facts: [],
+    experiments: [],
   };
 
   const [state, dispatch] = useReducer(Reducer, initialState);
@@ -118,6 +120,19 @@ const State = (props) => {
     });
   };
 
+  // Get Experiments
+  const getExperiments = async () => {
+    setLoading();
+
+    const res = await fetch("/assets/experiments.json");
+    const data = await res.json();
+
+    dispatch({
+      type: GET_EXPERIMENTS,
+      payload: data,
+    });
+  };
+
   // Set Loading
   const setLoading = () => {
     dispatch({
@@ -135,12 +150,14 @@ const State = (props) => {
         quizes: state.quizes,
         riddles: state.riddles,
         facts: state.facts,
+        experiments: state.experiments,
         setActiveLink,
         getGames,
         getOrigamis,
         getQuizes,
         getRiddles,
         getFacts,
+        getExperiments,
       }}
     >
       {props.children}
