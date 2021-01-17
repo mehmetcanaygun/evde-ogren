@@ -134,6 +134,7 @@ a {
   height: 40px;
   border: 0;
   background-color: #eeeeee;
+  border-radius: 50px;
   margin-bottom: 40px;
   cursor: pointer;
 }
@@ -756,9 +757,10 @@ a {
   border: 2px solid #1ab9e0;
 }
 
-.drawing-page .drawing-container .toolbox .clear-btn {
+.drawing-page .drawing-container .toolbox .clear-btn,
+.drawing-page .drawing-container .toolbox .download-btn {
   cursor: pointer;
-  width: 90%;
+  width: 100%;
   font-size: 14px;
   background-color: indianred;
   color: #eeeeee;
@@ -769,7 +771,14 @@ a {
   transition: 0.3s;
 }
 
-.drawing-page .drawing-container .toolbox .clear-btn:hover {
+.drawing-page .drawing-container .toolbox .download-btn {
+  display: block;
+  width: 100%;
+  background-color: #1ab9e0;
+}
+
+.drawing-page .drawing-container .toolbox .clear-btn:hover,
+.drawing-page .drawing-container .toolbox .download-btn:hover {
   background-color: #717171;
 }
 

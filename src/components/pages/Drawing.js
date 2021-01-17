@@ -46,6 +46,12 @@ const Drawing = () => {
     element.classList.add("selected");
   };
 
+  // Download Image
+  const downloadImage = (el) => {
+    let img = canvasRef.current.toDataURL("image/png");
+    el.target.href = img;
+  };
+
   useEffect(() => {
     // Get Canvas Element and Set Its Size
     const ctx = canvasRef.current.getContext("2d");
@@ -191,6 +197,16 @@ const Drawing = () => {
             <button className="clear-btn" onClick={() => clearCanvas()}>
               Temizle
             </button>
+          </div>
+          <div>
+            <a
+              className="download-btn"
+              download="evde-ogren-cizim.png"
+              href=""
+              onClick={(e) => downloadImage(e)}
+            >
+              İndir
+            </a>
           </div>
         </div>
 
