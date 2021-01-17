@@ -8,8 +8,8 @@ const Header = ({ header: { title, breadcrumbs, color } }) => {
   const { setActiveLink } = context;
 
   return (
-    <div className="header" style={{ backgroundColor: `${color}` }}>
-      <h1>{title}</h1>
+    <div className="header" style={{ borderBottom: `6px solid ${color}` }}>
+      <h1 style={{ color }}>{title}</h1>
       <ul>
         {breadcrumbs.map((bc, index) => (
           <li key={index}>
@@ -17,7 +17,7 @@ const Header = ({ header: { title, breadcrumbs, color } }) => {
               {bc[1]}
             </Link>
             {index !== breadcrumbs.length - 1 && (
-              <i className="fas fa-chevron-right"></i>
+              <i className="fas fa-chevron-right" style={{ color }}></i>
             )}
           </li>
         ))}

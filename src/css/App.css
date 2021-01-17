@@ -353,9 +353,9 @@ a {
 }
 
 .header {
-  padding: 20px;
+  padding: 20px 0;
   margin-bottom: 60px;
-  border: 2px dashed #202020;
+  border-bottom: 4px solid #202020;
 }
 
 .header h1 {
