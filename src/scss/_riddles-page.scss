@@ -4,7 +4,7 @@
       cursor: pointer;
       margin-bottom: 30px;
       border-radius: 18px;
-      background-color: $color-bilmece-bulmaca;
+      background-color: $color-bilmece;
       position: relative;
       overflow: hidden;
 
@@ -83,7 +83,7 @@
     }
 
     li:hover {
-      background-color: darken($color-bilmece-bulmaca, 5);
+      background-color: darken($color-bilmece, 5);
     }
   }
 }

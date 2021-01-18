@@ -1,0 +1,23 @@
+.puzzles-page {
+  .grid {
+    button {
+      border-radius: 18px;
+
+      p {
+        border-bottom-left-radius: 18px;
+        border-bottom-right-radius: 18px;
+      }
+    }
+
+    button:hover p {
+      background-color: $color-bulmaca;
+    }
+  }
+
+  .selected-puzzle iframe {
+    border-radius: 18px;
+    -webkit-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.75);
+  }
+}

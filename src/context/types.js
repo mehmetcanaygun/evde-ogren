@@ -4,5 +4,6 @@ export const GET_GAMES = "GET_GAMES";
 export const GET_ORIGAMIS = "GET_ORIGAMIS";
 export const GET_QUIZES = "GET_QUIZES";
 export const GET_RIDDLES = "GET_RIDDLES";
+export const GET_PUZZLES = "GET_PUZZLES";
 export const GET_FACTS = "GET_FACTS";
 export const GET_EXPERIMENTS = "GET_EXPERIMENTS";

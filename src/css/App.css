@@ -1144,6 +1144,25 @@ a {
   }
 }
 
+.puzzles-page .grid button {
+  border-radius: 18px;
+}
+
+.puzzles-page .grid button p {
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+}
+
+.puzzles-page .grid button:hover p {
+  background-color: #c897d4;
+}
+
+.puzzles-page .selected-puzzle iframe {
+  border-radius: 18px;
+  -webkit-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.75);
+}
+
 .experiments-container .experiment {
   padding-bottom: 30px;
   margin-bottom: 30px;

@@ -17,10 +17,10 @@ const Riddles = () => {
     <div className="page riddles-page">
       <Header
         header={{
-          title: "Bilmece & Bulmaca",
+          title: "Bilmece",
           breadcrumbs: [
             ["/", "Anasayfa"],
-            ["/bilmece-bulmaca", "Bilmece & Bulmaca"],
+            ["/bilmece", "Bilmece"],
           ],
           color: "#fa8b68",
         }}

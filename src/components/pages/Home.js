@@ -26,7 +26,8 @@ const Home = () => {
     ["/origami", "Origami", "#f4f0a6"],
     ["/quiz", "Quiz", "#29e833"],
     ["/ingilizce", "İngilizce", "#ed25be"],
-    ["/bilmece-bulmaca", "Bilmece Bulmaca", "#fa8b68"],
+    ["/bilmece", "Bilmece", "#fa8b68"],
+    ["/bulmaca", "Bulmaca", "#c897d4"],
   ];
 
   return (

@@ -10,6 +10,7 @@ import Drawing from "./components/pages/Drawing";
 import Origamis from "./components/pages/Origamis";
 import Quizes from "./components/pages/Quizes";
 import Riddles from "./components/pages/Riddles";
+import Puzzles from "./components/pages/Puzzles";
 import Experiments from "./components/pages/Experiments";
 import NotFound from "./components/pages/NotFound";
 
@@ -28,7 +29,8 @@ function App() {
             <Route exact path="/cizim" component={Drawing} />
             <Route exact path="/origami" component={Origamis} />
             <Route exact path="/quiz" component={Quizes} />
-            <Route exact path="/bilmece-bulmaca" component={Riddles} />
+            <Route exact path="/bilmece" component={Riddles} />
+            <Route exact path="/bulmaca" component={Puzzles} />
             <Route exact path="/deneyler" component={Experiments} />
             <Route component={NotFound} />
           </Switch>
