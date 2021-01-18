@@ -31,7 +31,10 @@
   left: 0;
   width: 100%;
   height: calc(100vh - 100px);
-  background-color: $color-primary;
+  // background-color: $color-primary;
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
   transition: 0.6s ease;
 
   ul {
@@ -46,12 +49,13 @@
     }
 
     li a {
-      color: $color-light;
+      color: $color-dark;
+      font-weight: bold;
+      transition: 0.3s;
     }
 
-    li.active::before,
-    li.active::after {
-      width: 100%;
+    li:hover a {
+      color: $color-secondary;
     }
   }
 }

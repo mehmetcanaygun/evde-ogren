@@ -6,3 +6,4 @@ export const GET_QUIZES = "GET_QUIZES";
 export const GET_RIDDLES = "GET_RIDDLES";
 export const GET_FACTS = "GET_FACTS";
 export const GET_EXPERIMENTS = "GET_EXPERIMENTS";
+export const GET_ENGLISH = "GET_ENGLISH";

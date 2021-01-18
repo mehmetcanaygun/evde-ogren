@@ -7,6 +7,7 @@ import {
   GET_RIDDLES,
   GET_FACTS,
   GET_EXPERIMENTS,
+  GET_ENGLISH,
 } from "./types";
 
 const reducer = (state, action) => {
@@ -57,6 +58,12 @@ const reducer = (state, action) => {
       return {
         ...state,
         experiments: payload,
+        loading: false,
+      };
+    case GET_ENGLISH:
+      return {
+        ...state,
+        english: payload,
         loading: false,
       };
     default:

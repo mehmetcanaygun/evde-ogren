@@ -10,6 +10,7 @@ import {
   GET_RIDDLES,
   GET_FACTS,
   GET_EXPERIMENTS,
+  GET_ENGLISH,
 } from "./types";
 
 const State = (props) => {
@@ -22,6 +23,7 @@ const State = (props) => {
     riddles: [],
     facts: [],
     experiments: [],
+    english: [],
   };
 
   const [state, dispatch] = useReducer(Reducer, initialState);
@@ -133,6 +135,19 @@ const State = (props) => {
     });
   };
 
+  // Get English Learning
+  const getEnglish = async () => {
+    setLoading();
+
+    const res = await fetch("/assets/englishlearning.json");
+    const data = await res.json();
+
+    dispatch({
+      type: GET_ENGLISH,
+      payload: data,
+    });
+  };
+
   // Set Loading
   const setLoading = () => {
     dispatch({
@@ -151,6 +166,7 @@ const State = (props) => {
         riddles: state.riddles,
         facts: state.facts,
         experiments: state.experiments,
+        english: state.english,
         setActiveLink,
         getGames,
         getOrigamis,
@@ -158,6 +174,7 @@ const State = (props) => {
         getRiddles,
         getFacts,
         getExperiments,
+        getEnglish,
       }}
     >
       {props.children}

@@ -1,0 +1,226 @@
+[
+  {
+    "category": "Renkler",
+    "imgPath": "/assets/img/english-category-colors.jpg",
+    "words": [
+      {
+        "word": "White",
+        "tr": "Beyaz",
+        "wordImg": "/assets/img/english-colors-white.jpg"
+      },
+      {
+        "word": "Black",
+        "tr": "Siyah",
+        "wordImg": "/assets/img/english-colors-black.jpg"
+      },
+      {
+        "word": "Blue",
+        "tr": "Mavi",
+        "wordImg": "/assets/img/english-colors-blue.jpg"
+      },
+      {
+        "word": "Brown",
+        "tr": "Kahverengi",
+        "wordImg": "/assets/img/english-colors-brown.jpg"
+      },
+      {
+        "word": "Green",
+        "tr": "Yeşil",
+        "wordImg": "/assets/img/english-colors-green.jpg"
+      },
+      {
+        "word": "Orange",
+        "tr": "Turuncu",
+        "wordImg": "/assets/img/english-colors-orange.jpg"
+      },
+      {
+        "word": "Pink",
+        "tr": "Pembe",
+        "wordImg": "/assets/img/english-colors-pink.jpg"
+      },
+      {
+        "word": "Purple",
+        "tr": "Mor",
+        "wordImg": "/assets/img/english-colors-purple.jpg"
+      },
+      {
+        "word": "Red",
+        "tr": "Kırmızı",
+        "wordImg": "/assets/img/english-colors-red.jpg"
+      },
+      {
+        "word": "Yellow",
+        "tr": "Sarı",
+        "wordImg": "/assets/img/english-colors-yellow.jpg"
+      }
+    ]
+  },
+  {
+    "category": "Sayılar",
+    "imgPath": "/assets/img/english-category-numbers.jpg",
+    "words": [
+      {
+        "word": "One",
+        "tr": "Bir",
+        "wordImg": "/assets/img/english-numbers-1.jpg"
+      },
+      {
+        "word": "Two",
+        "tr": "İki",
+        "wordImg": "/assets/img/english-numbers-2.jpg"
+      },
+      {
+        "word": "Three",
+        "tr": "Üç",
+        "wordImg": "/assets/img/english-numbers-3.jpg"
+      },
+      {
+        "word": "Four",
+        "tr": "Dört",
+        "wordImg": "/assets/img/english-numbers-4.jpg"
+      },
+      {
+        "word": "Five",
+        "tr": "Beş",
+        "wordImg": "/assets/img/english-numbers-5.jpg"
+      },
+      {
+        "word": "Six",
+        "tr": "Altı",
+        "wordImg": "/assets/img/english-numbers-6.jpg"
+      },
+      {
+        "word": "Seven",
+        "tr": "Yedi",
+        "wordImg": "/assets/img/english-numbers-7.jpg"
+      },
+      {
+        "word": "Eight",
+        "tr": "Sekiz",
+        "wordImg": "/assets/img/english-numbers-8.jpg"
+      },
+      {
+        "word": "Nine",
+        "tr": "Dokuz",
+        "wordImg": "/assets/img/english-numbers-9.jpg"
+      },
+      {
+        "word": "Ten",
+        "tr": "On",
+        "wordImg": "/assets/img/english-numbers-10.jpg"
+      }
+    ]
+  },
+  {
+    "category": "Hayvanlar",
+    "imgPath": "/assets/img/english-category-animals.jpg",
+    "words": [
+      {
+        "word": "Dog",
+        "tr": "Köpek",
+        "wordImg": "/assets/img/english-animals-dog.jpg"
+      },
+      {
+        "word": "Cat",
+        "tr": "Kedi",
+        "wordImg": "/assets/img/english-animals-cat.jpg"
+      },
+      {
+        "word": "Cow",
+        "tr": "İnek",
+        "wordImg": "/assets/img/english-animals-cow.jpg"
+      },
+      {
+        "word": "Lion",
+        "tr": "Aslan",
+        "wordImg": "/assets/img/english-animals-lion.jpg"
+      },
+      {
+        "word": "Giraffe",
+        "tr": "Zürafa",
+        "wordImg": "/assets/img/english-animals-giraffe.jpg"
+      },
+      {
+        "word": "Pinguin",
+        "tr": "Penguen",
+        "wordImg": "/assets/img/english-animals-pinguin.jpg"
+      },
+      {
+        "word": "Turtle",
+        "tr": "Kaplumbağa",
+        "wordImg": "/assets/img/english-animals-turtle.jpg"
+      },
+      {
+        "word": "Chicken",
+        "tr": "Tavuk",
+        "wordImg": "/assets/img/english-animals-chicken.jpg"
+      },
+      {
+        "word": "Snake",
+        "tr": "Yılan",
+        "wordImg": "/assets/img/english-animals-snake.jpg"
+      },
+      {
+        "word": "Shark",
+        "tr": "Köpekbalığı",
+        "wordImg": "/assets/img/english-animals-shark.jpg"
+      }
+    ]
+  },
+  {
+    "category": "Meyveler",
+    "imgPath": "/assets/img/english-category-fruits.jpg",
+    "words": [
+      {
+        "word": "Apple",
+        "tr": "Elma",
+        "wordImg": "/assets/img/english-fruits-apple.jpg"
+      },
+      {
+        "word": "Grape",
+        "tr": "Üzüm",
+        "wordImg": "/assets/img/english-fruits-grape.jpg"
+      },
+      {
+        "word": "Banana",
+        "tr": "Muz",
+        "wordImg": "/assets/img/english-fruits-banana.jpg"
+      },
+      {
+        "word": "Berry",
+        "tr": "Böğürtlen",
+        "wordImg": "/assets/img/english-fruits-berry.jpg"
+      },
+      {
+        "word": "Cherry",
+        "tr": "Kiraz",
+        "wordImg": "/assets/img/english-fruits-cherry.jpg"
+      },
+      {
+        "word": "Orange",
+        "tr": "Portakal",
+        "wordImg": "/assets/img/english-fruits-orange.jpg"
+      },
+      {
+        "word": "Peach",
+        "tr": "Şeftali",
+        "wordImg": "/assets/img/english-fruits-peach.jpg"
+      },
+      {
+        "word": "Pear",
+        "tr": "Armut",
+        "wordImg": "/assets/img/english-fruits-pear.jpg"
+      },
+      {
+        "word": "Strawberry",
+        "tr": "Çilek",
+        "wordImg": "/assets/img/english-fruits-strawberry.jpg"
+      },
+      {
+        "word": "Watermelon",
+        "tr": "Karpuz",
+        "wordImg": "/assets/img/english-fruits-watermelon.jpg"
+      }
+    ]
+  }
+]

@@ -20,9 +20,9 @@ const Navbar = () => {
     ["/deneyler", "Deneyler"],
     ["/origami", "Origami"],
     ["/quiz", "Quiz"],
-    ["/ingilizce", "İngilizce"],
-    ["/bilmece", "Bilmece", "#fa8b68"],
-    ["/bulmaca", "Bulmaca", "#c897d4"],
+    ["/ingilizce-ogren", "İngilizce Öğren"],
+    ["/bilmece", "Bilmece"],
+    ["/bulmaca", "Bulmaca"],
   ];
 
   // Disable scroll bar when menu is toggled
@@ -37,7 +37,10 @@ const Navbar = () => {
       <a href="/" className="navbar-logo">
         Evde <span>Öğren</span>
       </a>
-      <nav className={menuToggled ? "navbar-nav toggled" : "navbar-nav"}>
+      <nav
+        className={menuToggled ? "navbar-nav toggled" : "navbar-nav"}
+        style={{ backgroundImage: "url(/assets/img/navbar-list-bg.webp)" }}
+      >
         <ul>
           {links.map((link, index) => (
             <li key={index} className={isActive(link[0]) ? "active" : ""}>

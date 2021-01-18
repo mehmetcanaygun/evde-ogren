@@ -12,6 +12,7 @@ import Quizes from "./components/pages/Quizes";
 import Riddles from "./components/pages/Riddles";
 import Puzzles from "./components/pages/Puzzles";
 import Experiments from "./components/pages/Experiments";
+import EnglishLearning from "./components/pages/EnglishLearning";
 import NotFound from "./components/pages/NotFound";
 
 import "./css/App.css";
@@ -32,6 +33,7 @@ function App() {
             <Route exact path="/bilmece" component={Riddles} />
             <Route exact path="/bulmaca" component={Puzzles} />
             <Route exact path="/deneyler" component={Experiments} />
+            <Route exact path="/ingilizce-ogren" component={EnglishLearning} />
             <Route component={NotFound} />
           </Switch>
           <Footer />

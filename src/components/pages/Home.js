@@ -25,7 +25,7 @@ const Home = () => {
     ["/deneyler", "Deneyler", "#3b42f9"],
     ["/origami", "Origami", "#f4f0a6"],
     ["/quiz", "Quiz", "#29e833"],
-    ["/ingilizce", "İngilizce", "#ed25be"],
+    ["/ingilizce-ogren", "İngilizce Öğren", "#ed25be"],
     ["/bilmece", "Bilmece", "#fa8b68"],
     ["/bulmaca", "Bulmaca", "#c897d4"],
   ];
