@@ -27,11 +27,6 @@ const Games = () => {
         }}
       />
 
-      <p className="page-info">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ab animi,
-        assumenda quasi unde labore minima laborum ipsam voluptatem totam?
-      </p>
-
       {loading ? (
         <Loading />
       ) : (

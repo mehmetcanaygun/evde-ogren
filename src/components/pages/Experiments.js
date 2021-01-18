@@ -26,12 +26,6 @@ const Experiments = () => {
         }}
       />
 
-      <p className="page-info">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos at
-        tempora ducimus debitis vel odit. Iste pariatur repellat repellendus rem
-        minima dicta, vitae dolorem earum recusandae, veniam sequi impedit sunt.
-      </p>
-
       {loading ? (
         <Loading />
       ) : (

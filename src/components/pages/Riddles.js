@@ -26,13 +26,6 @@ const Riddles = () => {
         }}
       />
 
-      <p className="page-info">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-        incidunt adipisci neque eveniet, architecto accusantium fugiat eligendi
-        explicabo nihil delectus autem repudiandae dolore, temporibus maxime
-        corporis perferendis optio, debitis accusamus!
-      </p>
-
       {loading ? (
         <Loading />
       ) : (

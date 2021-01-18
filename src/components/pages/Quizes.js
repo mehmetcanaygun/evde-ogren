@@ -85,12 +85,6 @@ const Quizes = () => {
         </div>
       ) : (
         <div className="categories-container">
-          <p className="page-info">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-            nostrum facere in sint porro. Possimus expedita magnam impedit
-            excepturi eos!
-          </p>
-
           <QuizCategories
             quizes={quizes}
             setSelectedCategory={setSelectedCategory}
