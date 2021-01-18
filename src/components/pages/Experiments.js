@@ -32,49 +32,53 @@ const Experiments = () => {
         minima dicta, vitae dolorem earum recusandae, veniam sequi impedit sunt.
       </p>
 
-      <div className="experiments-container">
-        {experiments.map((experiment, index) => (
-          <div key={index} className="experiment">
-            <h2>
-              {experiment.id}
-              {". "}
-              {experiment.title}
-            </h2>
-            <div
-              className="img"
-              style={{ backgroundImage: `url(${experiment.imgPath})` }}
-            ></div>
-            {experiment.attention.length > 0 && (
-              <p className="attention">
-                <i className="fas fa-exclamation-circle"></i>{" "}
-                {experiment.attention}
-              </p>
-            )}
-            <p className="header">{experiment.header}</p>
-            <h3>Malzemelerimiz</h3>
-            <ul className="ingredients">
-              {experiment.ingredients.map((ing, index) => (
-                <li key={index}>
-                  <span>{`${index + 1}.`}</span> {ing}
-                </li>
-              ))}
-            </ul>
-            <h3>Deneyin Yapılışı</h3>
-            <ul className="steps">
-              {experiment.steps.map((step, index) => (
-                <li key={index}>
-                  <span>{`${index + 1}.`}</span> {step}
-                </li>
-              ))}
-            </ul>
-            <h3>Deneyin Açıklaması</h3>
-            <p className="description">{experiment.description}</p>
-            <a href={experiment.source} target="_blank" rel="noreferrer">
-              Kaynak
-            </a>
-          </div>
-        ))}
-      </div>
+      {loading ? (
+        <Loading />
+      ) : (
+        <div className="experiments-container">
+          {experiments.map((experiment, index) => (
+            <div key={index} className="experiment">
+              <h2>
+                {experiment.id}
+                {". "}
+                {experiment.title}
+              </h2>
+              <div
+                className="img"
+                style={{ backgroundImage: `url(${experiment.imgPath})` }}
+              ></div>
+              {experiment.attention.length > 0 && (
+                <p className="attention">
+                  <i className="fas fa-exclamation-circle"></i>{" "}
+                  {experiment.attention}
+                </p>
+              )}
+              <p className="header">{experiment.header}</p>
+              <h3>Malzemelerimiz</h3>
+              <ul className="ingredients">
+                {experiment.ingredients.map((ing, index) => (
+                  <li key={index}>
+                    <span>{`${index + 1}.`}</span> {ing}
+                  </li>
+                ))}
+              </ul>
+              <h3>Deneyin Yapılışı</h3>
+              <ul className="steps">
+                {experiment.steps.map((step, index) => (
+                  <li key={index}>
+                    <span>{`${index + 1}.`}</span> {step}
+                  </li>
+                ))}
+              </ul>
+              <h3>Deneyin Açıklaması</h3>
+              <p className="description">{experiment.description}</p>
+              <a href={experiment.source} target="_blank" rel="noreferrer">
+                Kaynak
+              </a>
+            </div>
+          ))}
+        </div>
+      )}
     </div>
   );
 };
