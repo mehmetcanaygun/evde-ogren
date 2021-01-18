@@ -8,7 +8,6 @@ import {
   GET_ORIGAMIS,
   GET_QUIZES,
   GET_RIDDLES,
-  GET_PUZZLES,
   GET_FACTS,
   GET_EXPERIMENTS,
 } from "./types";
@@ -21,7 +20,6 @@ const State = (props) => {
     origamis: [],
     quizes: [],
     riddles: [],
-    puzzles: [],
     facts: [],
     experiments: [],
   };
@@ -109,19 +107,6 @@ const State = (props) => {
     });
   };
 
-  // Get Puzzles
-  const getPuzzles = async () => {
-    setLoading();
-
-    const res = await fetch("/assets/puzzles.json");
-    const data = await res.json();
-
-    dispatch({
-      type: GET_PUZZLES,
-      payload: data,
-    });
-  };
-
   // Get Facts
   const getFacts = async () => {
     setLoading();
@@ -164,7 +149,6 @@ const State = (props) => {
         origamis: state.origamis,
         quizes: state.quizes,
         riddles: state.riddles,
-        puzzles: state.puzzles,
         facts: state.facts,
         experiments: state.experiments,
         setActiveLink,
@@ -172,7 +156,6 @@ const State = (props) => {
         getOrigamis,
         getQuizes,
         getRiddles,
-        getPuzzles,
         getFacts,
         getExperiments,
       }}
