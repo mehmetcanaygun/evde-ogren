@@ -141,6 +141,16 @@
 
   .navbar-nav {
     height: calc(100vh - 60px);
+
+    ul {
+      padding: 10px 10px;
+      column-gap: 10px;
+      row-gap: 0;
+
+      li a {
+        width: 100%;
+      }
+    }
   }
 
   .navbar-nav.toggled {

@@ -339,6 +339,15 @@ a {
   .navbar-nav {
     height: calc(100vh - 60px);
   }
+  .navbar-nav ul {
+    padding: 10px 10px;
+    -webkit-column-gap: 10px;
+            column-gap: 10px;
+    row-gap: 0;
+  }
+  .navbar-nav ul li a {
+    width: 100%;
+  }
   .navbar-nav.toggled {
     top: 60px;
   }
