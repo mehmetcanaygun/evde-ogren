@@ -8,7 +8,11 @@ const Header = ({ header: { title, breadcrumbs, color } }) => {
   const { setActiveLink } = context;
 
   return (
-    <div className="header" style={{ borderBottom: `6px solid ${color}` }}>
+    <div
+      className="header"
+      style={{ borderBottom: `6px solid ${color}` }}
+      data-aos="fade-down"
+    >
       <h1 style={{ color }}>{title}</h1>
       <ul>
         {breadcrumbs.map((bc, index) => (

@@ -35,7 +35,7 @@ const Experiments = () => {
       ) : (
         <div className="experiments-container">
           {experiments.map((experiment, index) => (
-            <div key={index} className="experiment">
+            <div key={index} className="experiment" data-aos="fade-right">
               <h2>
                 {experiment.id}
                 {". "}

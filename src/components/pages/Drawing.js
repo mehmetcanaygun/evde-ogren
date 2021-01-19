@@ -130,7 +130,7 @@ const Drawing = () => {
         }}
       />
 
-      <div className="drawing-container">
+      <div className="drawing-container" data-aos="fade-up">
         <div className="toolbox">
           <div className="brush-type-container">
             <p>Fırça Tipi</p>

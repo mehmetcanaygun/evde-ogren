@@ -33,7 +33,7 @@ const Riddles = () => {
       {loading ? (
         <Loading />
       ) : (
-        <div className="riddles-container">
+        <div className="riddles-container" data-aos="fade-up">
           <ul className="riddle-list">
             {riddles.map((riddle, index) => (
               <li

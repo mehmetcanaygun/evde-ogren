@@ -34,7 +34,7 @@ const Games = () => {
       {loading ? (
         <Loading />
       ) : (
-        <div className="grid">
+        <div className="grid" data-aos="fade-up">
           {games.map((game) => (
             <Link
               key={game.id}

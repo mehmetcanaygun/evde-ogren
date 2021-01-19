@@ -113,7 +113,7 @@ const Home = () => {
 
   return (
     <div className="page home-page">
-      <ul className="site-links">
+      <ul className="site-links" data-aos="fade-left">
         {siteLinks.map((link, index) => (
           <li key={index} style={{ backgroundColor: `${link[2]}` }}>
             <Link
@@ -128,14 +128,14 @@ const Home = () => {
         ))}
       </ul>
 
-      <div className="showcase">
+      <div className="showcase" data-aos="fade-right">
         <h1>
           Evde<span>Öğren</span>'e Hoş Geldiniz!
         </h1>
         <div className="mouse"></div>
       </div>
 
-      <div className="grid">
+      <div className="grid" data-aos="fade-up">
         <div className="riddle">
           <span className="icon">
             <i className="fas fa-star"></i>
