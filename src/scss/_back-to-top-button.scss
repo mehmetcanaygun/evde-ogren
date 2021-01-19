@@ -1,0 +1,41 @@
+.back-to-top-button {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 2rem;
+  border: 0;
+  background-color: rgba($color-secondary, 0.7);
+  color: $color-light;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.75);
+  z-index: 15;
+  cursor: pointer;
+  transform: scale(0);
+  opacity: 0;
+  visibility: hidden;
+  transition: transform 0.2s ease-in, opacity 0.2s ease-in,
+    visibility 0.2s ease-in;
+}
+
+.back-to-top-button.appear {
+  transform: scale(1);
+  opacity: 1;
+  visibility: visible;
+}
+
+.back-to-top-button:active {
+  background-color: rgba($color-secondary, 0.9);
+}
+
+// Media Queries
+@media (max-width: 768px) {
+  .back-to-top-button {
+    width: 40px;
+    height: 40px;
+    font-size: 1.4rem;
+  }
+}

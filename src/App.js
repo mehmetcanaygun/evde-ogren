@@ -3,6 +3,7 @@ import State from "./context/State";
 
 import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
+import BackToTopButton from "./components/layout/BackToTopButton";
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import Games from "./components/pages/Games";
@@ -39,6 +40,7 @@ function App() {
             <Route component={NotFound} />
           </Switch>
           <Footer />
+          <BackToTopButton />
         </div>
       </Router>
     </State>
