@@ -230,34 +230,38 @@ a {
 
 .navbar-nav ul {
   height: 100%;
+  padding: 40px 10%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.navbar-nav ul li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.navbar-nav ul li {
-  position: relative;
-}
-
 .navbar-nav ul li a {
-  color: #202020;
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 12px;
+  border-radius: 50px;
+  background-color: rgba(32, 32, 32, 0.6);
+  color: #eeeeee;
   font-weight: bold;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
 .navbar-nav ul li:hover a {
-  color: #d82158;
+  color: #1ab9e0;
 }
 
 .navbar-nav.toggled {

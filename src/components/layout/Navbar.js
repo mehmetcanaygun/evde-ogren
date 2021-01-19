@@ -39,7 +39,7 @@ const Navbar = () => {
       </a>
       <nav
         className={menuToggled ? "navbar-nav toggled" : "navbar-nav"}
-        style={{ backgroundImage: "url(/assets/img/navbar-list-bg.webp)" }}
+        style={{ backgroundImage: "url(/assets/img/navbar-list-bg.jpg)" }}
       >
         <ul>
           {links.map((link, index) => (
