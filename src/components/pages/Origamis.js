@@ -2,6 +2,7 @@ import React, { useEffect, useContext, useState } from "react";
 import Context from "../../context/context";
 import Header from "../layout/Header";
 import Loading from "../layout/Loading";
+import { scrollTop, changeTitle } from "../../snippets";
 
 const Origamis = (props) => {
   const context = useContext(Context);
@@ -23,7 +24,8 @@ const Origamis = (props) => {
   useEffect(() => {
     getOrigamis();
 
-    console.log(props.match);
+    scrollTop();
+    changeTitle("Origami");
 
     // eslint-disable-next-line
   }, []);

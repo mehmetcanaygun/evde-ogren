@@ -2,6 +2,7 @@ import React, { useContext, useEffect } from "react";
 import Context from "../../context/context";
 import Header from "../layout/Header";
 import Loading from "../layout/Loading";
+import { scrollTop, changeTitle } from "../../snippets";
 
 const Riddles = () => {
   const context = useContext(Context);
@@ -9,6 +10,9 @@ const Riddles = () => {
 
   useEffect(() => {
     getRiddles();
+
+    scrollTop();
+    changeTitle("Bulmaca");
 
     // eslint-disable-next-line
   }, []);

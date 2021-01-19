@@ -2,6 +2,7 @@ import React, { useContext, useEffect, useState } from "react";
 import Context from "../../context/context";
 import Header from "../layout/Header";
 import Loading from "../layout/Loading";
+import { scrollTop, changeTitle } from "../../snippets";
 
 const EnglishLearning = () => {
   const context = useContext(Context);
@@ -11,6 +12,9 @@ const EnglishLearning = () => {
 
   useEffect(() => {
     getEnglish();
+
+    scrollTop();
+    changeTitle("İngilizce Öğren");
 
     // eslint-disable-next-line
   }, []);

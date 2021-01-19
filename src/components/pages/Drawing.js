@@ -1,5 +1,6 @@
 import React, { createRef, useEffect } from "react";
 import Header from "../layout/Header";
+import { scrollTop, changeTitle } from "../../snippets";
 
 const Drawing = () => {
   const canvasRef = createRef();
@@ -53,6 +54,9 @@ const Drawing = () => {
   };
 
   useEffect(() => {
+    scrollTop();
+    changeTitle("Çizim");
+
     // Get Canvas Element and Set Its Size
     const ctx = canvasRef.current.getContext("2d");
     canvasRef.current.width = canvasRef.current.parentElement.offsetWidth;

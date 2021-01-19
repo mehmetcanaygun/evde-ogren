@@ -1,7 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "../layout/Header";
+import { scrollTop, changeTitle } from "../../snippets";
 
 const SingleGame = (props) => {
+  useEffect(() => {
+    scrollTop();
+    changeTitle("Oyna");
+
+    // eslint-disable-next-line
+  }, []);
+
   return (
     <div className="page single-game-page">
       <Header

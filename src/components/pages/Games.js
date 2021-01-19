@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Context from "../../context/context";
 import Header from "../layout/Header";
 import Loading from "../layout/Loading";
+import { scrollTop, changeTitle } from "../../snippets";
 
 const Games = () => {
   const context = useContext(Context);
@@ -10,6 +11,9 @@ const Games = () => {
 
   useEffect(() => {
     getGames();
+
+    scrollTop();
+    changeTitle("Oyunlar");
 
     // eslint-disable-next-line
   }, []);

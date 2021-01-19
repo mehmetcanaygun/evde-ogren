@@ -5,6 +5,7 @@ import Loading from "../layout/Loading";
 import QuizCategories from "../quiz/QuizCategories";
 import QuizQuestion from "../quiz/QuizQuestion";
 import QuizResult from "../quiz/QuizResult";
+import { scrollTop, changeTitle } from "../../snippets";
 
 const Quizes = () => {
   const context = useContext(Context);
@@ -40,6 +41,9 @@ const Quizes = () => {
 
   useEffect(() => {
     getQuizes();
+
+    scrollTop();
+    changeTitle("Quiz");
 
     // eslint-disable-next-line
   }, []);

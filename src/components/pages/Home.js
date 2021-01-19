@@ -2,6 +2,7 @@ import React, { useContext, useEffect, Fragment, useState } from "react";
 import { Link } from "react-router-dom";
 import Context from "../../context/context";
 import Loading from "../layout/Loading";
+import { scrollTop, changeTitle } from "../../snippets";
 
 const Home = () => {
   const context = useContext(Context);
@@ -84,6 +85,9 @@ const Home = () => {
   useEffect(() => {
     getRiddles();
     getFacts();
+
+    scrollTop();
+    changeTitle("Anasayfa");
 
     // eslint-disable-next-line
   }, []);

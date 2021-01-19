@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Header from "../layout/Header";
+import { scrollTop, changeTitle } from "../../snippets";
 
 const Puzzles = () => {
   const [selectedPuzzle, setSelectedPuzzle] = useState(null);
@@ -146,6 +147,13 @@ const Puzzles = () => {
       ),
     },
   ];
+
+  useEffect(() => {
+    scrollTop();
+    changeTitle("Bulmaca");
+
+    // eslint-disable-next-line
+  }, []);
 
   return (
     <div className="page puzzles-page">
