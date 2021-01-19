@@ -171,7 +171,7 @@ const Puzzles = () => {
       {selectedPuzzle ? (
         <div className="selected-puzzle">
           <button className="back-btn" onClick={() => setSelectedPuzzle(null)}>
-            <i className="fas fa-chevron-left"></i> Kategorilere Geri Dön
+            <i className="fas fa-chevron-left"></i> Bulmacalara Geri Dön
           </button>
 
           {selectedPuzzle}
@@ -182,7 +182,10 @@ const Puzzles = () => {
             <li key={index}>
               <button
                 style={{ backgroundImage: `url(${puzzle.img})` }}
-                onClick={() => setSelectedPuzzle(puzzle.frame)}
+                onClick={() => {
+                  setSelectedPuzzle(puzzle.frame);
+                  scrollTop();
+                }}
               >
                 <p>
                   {puzzle.title} - {puzzle.peace} parça

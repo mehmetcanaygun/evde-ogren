@@ -40,7 +40,7 @@ const EnglishLearning = () => {
             className="back-btn"
             onClick={() => setSelectedCategory(null)}
           >
-            <i className="fas fa-chevron-left"></i> Kategorilere Geri Dön
+            <i className="fas fa-chevron-left"></i> Konulara Geri Dön
           </button>
 
           <h2>{selectedCategory.category}</h2>
@@ -62,7 +62,13 @@ const EnglishLearning = () => {
       ) : (
         <div className="grid english-categories">
           {english.map((item, index) => (
-            <button key={index} onClick={() => setSelectedCategory(item)}>
+            <button
+              key={index}
+              onClick={() => {
+                setSelectedCategory(item);
+                scrollTop();
+              }}
+            >
               <span>{item.category}</span>
               <div
                 className="img"

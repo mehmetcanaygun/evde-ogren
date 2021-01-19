@@ -1,4 +1,5 @@
 import React from "react";
+import { scrollTop } from "../../snippets";
 
 const QuizCategories = ({ quizes, setSelectedCategory }) => {
   return (
@@ -7,7 +8,10 @@ const QuizCategories = ({ quizes, setSelectedCategory }) => {
         <li key={index}>
           <button
             style={{ backgroundImage: `url(${item.imgPath})` }}
-            onClick={() => setSelectedCategory(item)}
+            onClick={() => {
+              setSelectedCategory(item);
+              scrollTop();
+            }}
           >
             <p>{item.category}</p>
           </button>

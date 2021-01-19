@@ -73,6 +73,7 @@ const Origamis = (props) => {
               }}
               onClick={() => {
                 setSelectedOrigami(origami);
+                scrollTop();
               }}
             >
               <p>{origami.nameTR}</p>
