@@ -573,7 +573,10 @@ a {
   margin: 100px 0 40px 0;
 }
 
-.home-page .grid div {
+.home-page .grid .riddle,
+.home-page .grid .trivia,
+.home-page .grid .experiment,
+.home-page .grid .origami {
   background-color: #eeeeee;
   padding: 20px;
   border-radius: 12px;
@@ -582,14 +585,20 @@ a {
   transition: 0.3s;
 }
 
-.home-page .grid div span {
+.home-page .grid .riddle span,
+.home-page .grid .trivia span,
+.home-page .grid .experiment span,
+.home-page .grid .origami span {
   position: absolute;
   top: -16px;
   right: 0;
   font-size: 32px;
 }
 
-.home-page .grid div h2 {
+.home-page .grid .riddle h2,
+.home-page .grid .trivia h2,
+.home-page .grid .experiment h2,
+.home-page .grid .origami h2 {
   margin-bottom: 30px;
   font-family: "Spicy Rice", cursive;
   color: #1ab9e0;
@@ -597,7 +606,10 @@ a {
   position: relative;
 }
 
-.home-page .grid div h2::after {
+.home-page .grid .riddle h2::after,
+.home-page .grid .trivia h2::after,
+.home-page .grid .experiment h2::after,
+.home-page .grid .origami h2::after {
   content: "";
   position: absolute;
   bottom: -6px;
@@ -608,27 +620,77 @@ a {
   border-radius: 4px;
 }
 
+.home-page .grid .riddle .container a,
+.home-page .grid .trivia .container a,
+.home-page .grid .experiment .container a,
+.home-page .grid .origami .container a {
+  height: 20px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50px;
+  margin-top: 20px;
+  color: #1ab9e0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.home-page .grid .riddle .container a i,
+.home-page .grid .trivia .container a i,
+.home-page .grid .experiment .container a i,
+.home-page .grid .origami .container a i {
+  margin-right: 20px;
+}
+
+.home-page .grid .riddle .container a:hover,
+.home-page .grid .trivia .container a:hover,
+.home-page .grid .experiment .container a:hover,
+.home-page .grid .origami .container a:hover {
+  color: #1593b2;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
 .home-page .grid .riddle span {
   color: #fa8b68;
 }
 
 .home-page .grid .riddle .ans {
-  width: 200px;
-  height: 40px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-top: 10px;
+  width: 180px;
+  height: 36px;
+  margin-top: 16px;
   border-radius: 18px;
-  background-color: #d82158;
+  background-color: #fa8b68;
   color: #eeeeee;
+  position: relative;
+  overflow: hidden;
+}
+
+.home-page .grid .riddle .ans p {
+  position: absolute;
+  background-color: transparent;
+}
+
+.home-page .grid .riddle .ans p:nth-child(2) {
+  -webkit-transform: translateY(36px);
+          transform: translateY(36px);
+}
+
+.home-page .grid .riddle .ans.toggled p:nth-child(1) {
+  -webkit-transform: translateY(-36px);
+          transform: translateY(-36px);
+}
+
+.home-page .grid .riddle .ans.toggled p:nth-child(2) {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
 }
 
 .home-page .grid .riddle .ans:hover {
-  background-color: #ac1a46;
+  background-color: #f86537;
 }
 
 .home-page .grid .trivia span {
@@ -643,9 +705,12 @@ a {
   color: #f4f0a6;
 }
 
-.home-page .grid div:hover {
-  -webkit-transform: scale(1.05) rotate(3deg);
-          transform: scale(1.05) rotate(3deg);
+.home-page .grid .riddle:hover,
+.home-page .grid .trivia:hover,
+.home-page .grid .experiment:hover,
+.home-page .grid .origami:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
 }
 
 @-webkit-keyframes mouseScroll {
@@ -692,6 +757,7 @@ a {
   .home-page .grid {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
+    gap: 20px;
   }
 }
 

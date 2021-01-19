@@ -96,7 +96,10 @@
     gap: 40px;
     margin: 100px 0 40px 0;
 
-    div {
+    .riddle,
+    .trivia,
+    .experiment,
+    .origami {
       background-color: $color-light;
       padding: 20px;
       border-radius: 12px;
@@ -128,6 +131,26 @@
         background-color: $color-primary;
         border-radius: 4px;
       }
+
+      .container a {
+        height: 20px;
+        justify-content: flex-start;
+        align-items: center;
+        border-radius: 50px;
+        margin-top: 20px;
+        color: $color-primary;
+        font-size: 14px;
+        font-weight: bold;
+
+        i {
+          margin-right: 20px;
+        }
+      }
+
+      .container a:hover {
+        color: darken($color-primary, 10);
+        transform: scale(1);
+      }
     }
 
     .riddle span {
@@ -135,18 +158,36 @@
     }
 
     .riddle .ans {
-      width: 200px;
-      height: 40px;
-      justify-content: center;
-      align-items: center;
-      margin-top: 10px;
+      width: 180px;
+      height: 36px;
+      margin-top: 16px;
       border-radius: 18px;
-      background-color: $color-secondary;
+      background-color: $color-bilmece;
       color: $color-light;
+      position: relative;
+      overflow: hidden;
+
+      p {
+        position: absolute;
+        background-color: transparent;
+      }
+
+      p:nth-child(2) {
+        transform: translateY(36px);
+      }
+    }
+
+    .riddle .ans.toggled {
+      p:nth-child(1) {
+        transform: translateY(-36px);
+      }
+      p:nth-child(2) {
+        transform: translateY(0);
+      }
     }
 
     .riddle .ans:hover {
-      background-color: darken($color-secondary, 10);
+      background-color: darken($color-bilmece, 10);
     }
 
     .trivia span {
@@ -159,8 +200,11 @@
       color: $color-origami;
     }
 
-    div:hover {
-      transform: scale(1.05) rotate(3deg);
+    .riddle:hover,
+    .trivia:hover,
+    .experiment:hover,
+    .origami:hover {
+      transform: translateY(-5px);
     }
   }
 }
@@ -199,6 +243,7 @@
 
     .grid {
       grid-template-columns: 1fr;
+      gap: 20px;
     }
   }
 }

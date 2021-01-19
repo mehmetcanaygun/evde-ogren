@@ -3,7 +3,7 @@ import Context from "../../context/context";
 import Header from "../layout/Header";
 import Loading from "../layout/Loading";
 
-const Origamis = () => {
+const Origamis = (props) => {
   const context = useContext(Context);
   const { getOrigamis, origamis, loading } = context;
 
@@ -22,6 +22,8 @@ const Origamis = () => {
 
   useEffect(() => {
     getOrigamis();
+
+    console.log(props.match);
 
     // eslint-disable-next-line
   }, []);

@@ -4,6 +4,7 @@ import State from "./context/State";
 import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
 import Home from "./components/pages/Home";
+import About from "./components/pages/About";
 import Games from "./components/pages/Games";
 import SingleGame from "./components/pages/SingleGame";
 import Drawing from "./components/pages/Drawing";
@@ -25,6 +26,7 @@ function App() {
           <Navbar />
           <Switch>
             <Route exact path="/" component={Home} />
+            <Route exact path="/hakkinda" component={About} />
             <Route exact path="/oyunlar" component={Games} />
             <Route exact path="/oyunlar/:name" component={SingleGame} />
             <Route exact path="/cizim" component={Drawing} />

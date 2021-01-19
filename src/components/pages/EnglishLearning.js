@@ -43,7 +43,7 @@ const EnglishLearning = () => {
 
           <ul className="word-list grid">
             {selectedCategory.words.map((word, index) => (
-              <li>
+              <li key={index}>
                 <p
                   className="word"
                   style={{ backgroundImage: `url(${word.wordImg})` }}
@@ -57,8 +57,8 @@ const EnglishLearning = () => {
         </div>
       ) : (
         <div className="grid english-categories">
-          {english.map((item) => (
-            <button onClick={() => setSelectedCategory(item)}>
+          {english.map((item, index) => (
+            <button key={index} onClick={() => setSelectedCategory(item)}>
               <span>{item.category}</span>
               <div
                 className="img"
