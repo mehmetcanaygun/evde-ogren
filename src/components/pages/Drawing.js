@@ -130,6 +130,14 @@ const Drawing = () => {
         }}
       />
 
+      <p className="page-info">
+        <i
+          className="fas fa-exclamation-circle"
+          style={{ color: "skyblue" }}
+        ></i>{" "}
+        Çizim tahtası dokunmatik ekranlarda çalışmamaktadır.
+      </p>
+
       <div className="drawing-container" data-aos="fade-up">
         <div className="toolbox">
           <div className="brush-type-container">
